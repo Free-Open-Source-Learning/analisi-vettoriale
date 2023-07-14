@@ -1,0 +1,1024 @@
+\chapter{Spazi metrici e successioni di funzioni}
+
+Si parla di spazi metrici quando si può definire su di essi una \textbf{metrica}, e si può quindi definire la coppia $(X,d)$.
+
+\section{Distanze}
+
+Sia un insieme di elementi $X \neq \emptyset$, definiamo come  \textbf{distanza} un'applicazione 
+\begin{align}
+d \, : \, X \times X {}&\rightarrow [0, + \infty) \\
+(x,y) &\rightarrow d(x,y)
+\end{align}
+che rispetta le seguenti proprietà
+\begin{enumerate}
+	\item $d(x,y) \geq 0 \quad ; \quad d(x,y) = 0 \leftrightarrow x=y$
+	\item $d(x,y)=d(y,x)$
+	\item $d(x,y) \leq d(x,z) + d(z,y) \quad \forall x,y,z \in X$ \quad \text{[disuguaglianza triangolare]}
+\end{enumerate}
+
+\section{Intorni}
+
+Sia $x_0 \in X$, si definisce un suo intorno di \textbf{raggio} $R$ come
+\begin{align}
+I(x_0,R) = \left\{x\in X \, : \, d(x,x_0)<R
+\right\}
+\end{align}
+
+Gli intorni si dividono in due categorie:
+\begin{enumerate}
+	\item \textbf{Aperti}
+	
+	preso $A \subset X$, $A$ si dice aperto se 
+	\begin{align}
+	\forall x \in A \quad \exists \, R>0 \, : \, I(x,R)\subset A
+	\end{align}
+	
+	\item \textbf{Chiusi}
+	
+	preso $C \subset X$, $C$ si dice chiuso se il suo complementare $\overline{C}= X \, \backslash \, C$ è aperto
+\end{enumerate}
+
+\section{Esempi di metriche}
+
+Vediamo degli esempi notevoli
+
+\subsection{Metrica discreta}
+
+\begin{align}
+X \, : \, d(x,y) {}&= \left\{
+\begin{array}{cc}
+0  \qquad se \quad R<1\\
+1  \qquad se \quad R>1
+\end{array}
+\right. \\
+\nonumber \\
+I(x,R) &= \left\{
+\begin{array}{cc}
+x  \qquad se \quad R<1\\
+X  \qquad se \quad R>1
+\end{array}
+\right.
+\end{align}
+
+Si nota subito come le proprietà della distanza siano rispettate.
+
+Notiamo che per come è definita la metrica, ogni sottoinsieme è discreto.
+
+\newpage
+
+\subsection{Metrica Euclidea}
+
+\begin{align}
+X= \mathbb{R}^n \quad ; \quad x \in \mathbb{R}^n = (x_1, \dots , x_n) \\
+d_n(x,y)= |x-y|_n = \sqrt{\sum_{i=1}^{n} (x_i - y_i)^2}
+\end{align}
+
+Verifichiamo come $d_n(x,y)$ sia una buona metrica.
+
+Le prime due proprietà sono evidenti, la terza un po' meno.
+\begin{align}
+|x-y|_n \overset{?}{\leq}  |x-z|_n + |z-y|_n
+\end{align}
+definiamo
+\begin{align}
+{}&x-z = a \\
+&z-y = b \\
+&x-y = x-z + z-y = a + b
+\end{align}
+e riscriviamo
+\begin{align}
+|a+b|_n \overset{?}{\leq} |a|_n + |b|_n
+\end{align}
+Dimostrare questo è equivalente a dimostrare
+\begin{align}
+|a+b|_n^2 \overset{?}{\leq} (|a|_n + |b|_n)^2
+\end{align}
+Procediamo nel seguente modo:
+\begin{align}
+{}&|a+b|_n^2 \overset{?}{\leq} (|a|_n + |b|_n)^2 \nonumber \\
+\downarrow \nonumber \\
+&\sum_{i=1}^{n} (a_i + b_i)^2  \overset{?}{\leq} |a|^2_n + |b|^2_n + 2|a|_n|b|_n \nonumber \\
+\downarrow \nonumber \\
+&\sum_{i=1}^{n} a_i^2 + b_i^2 + 2a_ib_i \overset{?}{\leq} \sum_{i=1}^{n} a_i^2 + \sum_{i=1}^{n} b_i^2 + 2|a|_n|b|_n \nonumber \\
+\downarrow \nonumber \\
+&\sum_{i=1}^{n} a_ib_i \coloneqq \braket{a|b} \overset{?}{\leq} |a|_n|b|_n
+\end{align}
+Per verificare questo ci serve la \textbf{disuguaglianza di Cauchy-Shwartz}, che ricaviamo nel seguente modo:
+\begin{align}
+{}&\sum_{i=1}^{n} (a_i + t b_i)^2 \geq 0 \quad \forall t \in \mathbb{R} \nonumber \\
+\downarrow \nonumber \\
+& \sum_{i=1}^{n}(a_i^2 + b_i^2 + 2ta_ib_i ) \geq 0 \nonumber \\
+\downarrow \nonumber \\
+& |a|^2_n + |b|^2_n + 2t \sum_{i=1}^{n} a_ib_i \geq 0 \nonumber \\
+\downarrow \nonumber \\
+& |a|^2_n + |b|^2_n + 2t \braket{a|b} \geq 0 \quad \forall t\in \mathbb{R}
+\end{align}
+Quest'ultima disequazione rappresenta un luogo di punti contenuto in una parabola convessa che incrocia gli assi al massimo in un punto, quindi segue che $\Delta \leq 0$, ovvero
+
+\begin{align}
+{}&\Delta = 4 t^2 |\braket{a|b}|^2 - 4t^2|a|^2_n |b|^2_n \leq 0 \nonumber \\
+\downarrow \nonumber \\
+&|\braket{a|b}|^2 \leq |a|^2_n |b|^2_n \nonumber \\
+\downarrow \nonumber \\
+& |\braket{a|b}| \leq |a|_n |b|_n \quad \text{[disequazione di Cauchy-Shwartz]}
+\end{align}
+
+Siccome sappiamo che $a \leq |a| \, \forall a$ ne segue la nostra dimostrazione:
+
+\begin{align}
+\braket{a|b} \leq |\braket{a|b}| \leq |a|_n |b|_n \rightarrow 
+\braket{a|b} \leq |a|_n |b|_n
+\end{align}
+
+in metrica euclidea gli intorni si dicono "circolari", dato che assumono forme del tipo:
+
+\begin{align}
+I(0,R)= \left\{ (x_1,x_2)\in \mathbb{R}^2 \, : \, \sqrt{x_1^2 + x_2^2}<R \right\}
+\end{align}
+
+che è l'equivalente di una circonferenza di raggio $R^2$.
+
+\subsection{Metriche "equivalenti"}
+
+Si parla di \textbf{metriche equivalenti} quando si ha che
+
+\begin{align}
+m,M>0 \; : \; m\delta(x,y) <d(x,y) < M \delta(x,y) \\
+I_d(x,mR) \subset I_\delta(x,R) \subset I_d (x,MR)
+\end{align}
+
+In altri termini, in ogni intorno nella metrica $\delta$ posso avere un intorno della metrica $d$.
+
+\smallskip
+
+Alcuni esempi sono:
+
+\begin{align}
+{}&d_1(x,y) = \sqrt{\sum_{i=1}^{n} a_i (x_i - y_i)^2} \quad ; \quad a_i > 0 \, , \, a_i \in \mathbb{R} \\
+&d_2(x,y) = \sum_{i=1}^{n} |x_i - y_i|_1 \\
+&d_3(x,y) = \underset{i \in [1,n]}{Max} |x_i - y_i|_1
+\end{align}
+
+Tutti gli spazi su cui sono applicabili sono metrici, e gli intorni saranno del tipo:
+
+\begin{align}
+I_1(0,R) {}&= \left\{ (x_1,x_2) : \sqrt{a_1 x_1^2 + a_2 x_2^2} < R \right\} \quad \text{intorno circolare}\\
+I_2(0,R) &= \left\{ (x_1,x_2) : |x_1| + |x_2|  < R
+\right\} \quad \text{intorno romboidale} \\
+I_3(0,R)&= \left\{ (x_1,x_2) : max(|x_1| , |x_2|)  < R
+\right\}  \quad \text{intorno quadrato}
+\end{align}
+
+\newpage
+
+\section{Spazio delle funzioni continue}
+
+\begin{align}
+X= C^0([a,b])= \left\{ f \; : \; [a,b] \rightarrow \mathbb{R} \; \text{continue in } [a,b]
+\right\}
+\end{align}
+
+Definiamo la \textbf{metrica uniforme} come
+\begin{align}
+d(f,g) = \underset{[a,b]}{sup}|f(x) - g(x)| = \underset{[a,b]}{Max}|f(x) - g(x)|= ||f-g||_\infty
+\end{align}
+
+Vediamo come rispetti le proprietà delle distanze:
+
+Le prime due sono evidenti, dimostriamo solo la terza
+
+GLI APPUNTI CHE MI HANNO GIRATO NON HANNO SENSO, VEDERE CON QUALCUNO
+
+\bigskip
+
+Possiamo quindi dire che $(C^0([a,b]), ||\cdot||_\infty)$ costituiscono uno spazio metrico.
+
+\section{Spazi normati}
+
+Si dice che uno spazio vettoriale $X$ è anche normato se vi è definibile
+\begin{align}
+||\cdot|| \; : \; X \rightarrow [0, +\infty)
+\end{align}
+
+con le seguenti proprietà:
+
+\begin{enumerate}
+	\item $||x|| \geq 0 \; , \; ||x||=0 \leftrightarrow x=0$
+	\item $||\lambda x||= |\lambda| \, ||x|| \quad ; \quad \lambda \in \mathbb{R} \; , \; x \in X$
+	\item $||x+y|| \leq ||x|| + ||y||$
+\end{enumerate}
+
+Possiamo fare le seguenti osservazioni:
+
+\begin{enumerate}
+	\item uno spazio normato $(X, ||\cdot||)$ è anche metrico con $d(x,y)= ||x-y||$
+	\item $C^0([a,b])$ è spazio normato con $||x||= |x|_n = \sqrt{\sum x_i^2} \; : \; ||f||=||f||_\infty$
+	\item $\mathbb{R}$ con la metrica discreta non è uno spazio normato, infatti 
+	\begin{align}
+	{}&||x||= d(x,0) \\
+	&||\lambda x||= d(\lambda x, 0) = \left\{
+	\begin{array}{cc}
+	0 \quad x=0 \\
+	1 \quad x\neq 0
+	\end{array}
+	\right.
+	\end{align}
+\end{enumerate}
+
+\section{Tipologie di punti}
+
+Sia uno spazio metrico $(X,d)$ con $D \subseteq X$, preso un $x \in D$, esso sarà, rispetto a $D$:
+
+\begin{enumerate}
+	\item \textbf{Interno}
+	
+		se  $\exists R >0 \; : \; I(x,R)\subset D$
+		
+		Osservazione: Se $D$ è aperto tutti i suoi punti sono interni, e viceversa.
+	\item \textbf{Esterno}
+	
+		se  $\exists R >0 \; : \; I(x,R)\subset X \, \backslash \,D$
+	\item \textbf{di Frontiera} ($x \in \partial D$)
+	
+		se $\forall R>0$ si ha $I(x,R)\cap D \neq \emptyset \neq I(x,R)\cap  X \, \backslash \,D$
+		
+		Si definisce \textbf{chiusura di D} l'insieme $\overline{D}= D \cup \partial D$
+		
+	\item \textbf{di Accumulazione}
+	
+		se $\forall R>0$ in $I(x,R)$ cade \underline{almeno} un punto di $D$ diverso da $x$.
+		
+		L'insieme dei punti di accumulazione $acc(D)$ prende il nume di \textbf{Derivato di D}.
+\end{enumerate}
+
+\textit{Osservazione}: $C$ chiuso $\leftrightarrow$ $\partial C \subseteq C$ $\leftrightarrow$ $acc(C) \subseteq C$ $\leftrightarrow$ $C= \overline{C}$
+
+\newpage
+
+
+\section{Successioni}
+
+Sia (X,d) uno spazio metrico, si definisce come \textbf{successione di funzioni} come
+
+\begin{align}
+\left\{ x_k \right\}_{k\geq 1} \quad ; \quad x_k \in X
+\end{align}
+
+\subsection{Successioni convergenti}
+
+Si dice che una successione $\left\{ x_k \right\}_{k\geq 1}\in X$ è convergente ad $x_0 \in X$ quando
+\begin{align}
+\underset{k\rightarrow 0}{\lim} \, d(x_k,x_0)=0 \quad \leftrightarrow \quad \underset{k\rightarrow 0}{\lim} \, x_k=x_0 \quad \leftrightarrow \quad x_k \overset{d}{\rightarrow} x_0
+\end{align}
+
+Vediamone alcuni \textbf{esempi:}
+
+\begin{enumerate}
+	\item in $\R$ avremo $\limit{k}{\infty} |x_k - x_0|_1=0 \implies \limit{k}{\infty}x_k=x_0$
+	\item in $\R^n$ avremo $\limit{k}{\infty} |\vecx^{(k)} - \vecx^{0}|_n=0 \implies \vecx^{(k)}\overset{||\cdot||_\infty}{\longrightarrow}\vecx^{(k)}$
+	\item $\vecx^{(k)}=(\half^k \spacecomma \fracn{\Exp{x^2}} \spacecomma \sin \left( \fracn{k} \right) ) \arrowlim{k}{\infty} (0,0,0) $
+\end{enumerate}
+
+cosa dubbiosa, cercare appunti altrui
+
+\subsection{Successioni di Cauchy}
+
+Dato uno spazio metrico $(X,d)$, una successione $\left\{ x_k \right\}_{k\geq 1}\in X$ si dice \textbf{di Cauchy} se
+\begin{align}
+\forall \epsilon > 0 \quad \exists n_\epsilon \; : \; d(x_{n+p},x_n)<\epsilon \quad \forall n>n_\epsilon \, , \, \forall p>0
+\end{align}
+
+Uno strumento utile è il seguente \textbf{teorema}:
+
+\bigskip
+
+\textit{se $\left\{ x_k \right\}_{k\geq 1}\in X$ converge ad $x^0$ allora è anche \textbf{di Cauchy}}.
+
+\bigskip
+
+La dimostrazione è semplice:
+\begin{align}
+d(x_{n+p}, x_n) \leq d(x_{n+p}, x^0) + d(x^0, x_p)
+\end{align}
+
+Siccome per ipotesi la successione è convergente avremo, $\forall n>n_\epsilon$
+\begin{align}
+{}&d(x_{n+p}, x^0) < \frac{\epsilon}{2} \\
+&d(x^0, x_p) < \frac{\epsilon}{2}
+\end{align}
+e quindi
+\begin{align}
+d(x_{n+p}, x_n) \leq \frac{\epsilon}{2} + \frac{\epsilon}{2}=\epsilon
+\end{align}
+E il teorema è quindi dimostrato.
+
+\bigskip
+
+NOTA BENE: Non è detto il viceversa!
+
+\newpage
+
+\section{Spazi}
+
+\subsection{Spazi compatti}
+
+Si dice che uno spazio è \textbf{compatto} se $\forall \left\{ x_k \right\}_{k\geq 1}\in X$ è possibile ricavare una sottosuccessione convergente.
+
+Un'altro modo per definire la compattezza è tramite il teorema di \textbf{Heine-Borel}, che afferma:
+
+\bigskip
+
+\textit{$A \subset \mathbb{R}$ è compatto \underline{se e solo se} $A$ è chiuso e compatto}
+
+\subsection{Spazi completi}
+
+Si dice che uno spazio $X$ è \textbf{completo} qualora ogni successione di Cauchy in esso converga ad un $x\in X$
+
+\subsubsection{Spazi completi (Ex.)}
+
+Tutti gli $(\mathbb{R}^n, ||\cdot||_n)$ sono spazi metrici completi. Diamo una dimostrazione semplice e poco approfondita:
+
+\begin{align}
+{}&\left\{ x_k \right\}_{k\geq 1} \in \mathbb{R}^n \; \text{succ. di cauchy} \nonumber \\
+& \downarrow \nonumber \\
+& \left\{ x_k \right\}_{k\geq 1} \; \text{è anche limitata} \nonumber \\
+& \downarrow \nonumber \\
+& \text{Possiamo applicare il th. di \textbf{Bolzano-Weierstrass}} \nonumber \\
+& \downarrow \nonumber \\
+& \exists \; \text{una sottosucc. conv. ad un generico } x^0 \nonumber \\
+& \downarrow \nonumber \\
+& \text{essendo di Cauchy anche } \left\{ x_k \right\} \rightarrow x^0 \nonumber
+\end{align}
+
+\subsubsection{Spazi \underline{non}  completi  (Ex.)}
+
+\begin{enumerate}
+	\item $(\mathbb{Q}, |\cdot|_1)$ non è completo, dato che 
+	
+	\begin{align}
+	{}&x_n=\left(
+	1+\frac{1}{n}
+	\right)^n \in \mathbb{Q} \subset \mathbb{R} \\
+	&\underset{n \rightarrow \infty}{\lim} \, x_n= e \notin \mathbb{Q}
+	\end{align}
+	
+	\item X=(0,2)
+	
+	\begin{align}
+	{}&x_n= \frac{1}{n} \in X \\
+	& \underset{n \rightarrow \infty}{\lim} \, x_n = 0 \notin X
+	\end{align}
+\end{enumerate}
+
+\subsubsection{$(C^0([a,b]), ||\cdot||_\infty)$  (Ex.)}
+
+Dimostriamo come lo spazio delle funzioni continue sia completo in metrica $||\cdot||_\infty$
+
+\bigskip
+
+
+Sia $\left\{f_n(x)\right\} \in C^0([a,b])$ una successione di Cauchy, ovvero
+\begin{align}
+\forall \epsilon > 0 \; \exists n_\epsilon \; : \; ||f_{n+p} - f_n||< \epsilon \; \forall n>n_\epsilon \, , \, \forall p>0
+\end{align}
+
+Fissato $x\in [a,b]$ avremo
+\begin{align}
+|f_{n+p} - f_n| \leq || f_{n+p}(x) - f_n(x)||_\infty<\epsilon
+\end{align}
+
+Ne segue quindi che $\left\{f_n(x)\right\}$ è di Cauchy in $\mathbb{R}$, e siccome esso è completo questo vuol dire che abbiamo un candidato limite:
+\begin{align}
+\exists f(x)= \underset{n \rightarrow \infty}{\lim}f_n(x) \; \forall x\in [a,b]
+\end{align}
+
+\newpage
+
+Ora ci rimane da dimostrare che
+
+\begin{enumerate}
+	\item $f_n(x) \overset{||\cdot||_\infty}{\longrightarrow} f(x)$
+	\item $f(x)  \in C^0([a,b])$
+\end{enumerate}
+
+Partiamo dal primo punto:
+
+Abbiamo che
+\begin{align}
+|f_{n+p}(x) - f_n(x)|< \epsilon \quad \left\{
+\begin{array}{ccc}
+{}\forall n>n_\epsilon \\
+\forall p>0 \\
+\forall x \in [a,b]
+\end{array}
+\right.
+\end{align}
+Per costruzione sappiamo che
+\begin{align}
+\underset{p\rightarrow \infty}{\lim}f_{n+p}(x) = f(x)
+\end{align}
+Da cui
+\begin{align}
+{}&|f(x) - f_n(x)|< \epsilon \quad \left\{
+\begin{array}{cc}
+{}\forall n>n_\epsilon \\
+\forall x \in [a,b]
+\end{array}
+\right. \\
+&\downarrow \nonumber\\
+&\underset{[a,b]}{sup}|f(x) - f_n(x)| \leq \epsilon \quad \forall n> n_\epsilon \\
+&\downarrow \nonumber\\
+& ||f(x) - f_n(x)||_\infty \leq \epsilon \quad \text{Q.E.D.}
+\end{align}
+
+Il secondo punto si dimostra nel seguente modo:
+
+Possiamo scrivere, utilizzando la dis. triangolare
+\begin{align}
+|f(x) - f(x_0)| \leq |f(x) - f_n(x)| + |f_n(x_0) - f_n(x_0)| + |f_n(x_0) - f(x_0)|
+\end{align}
+Ma sappiamo che
+\begin{align}
+{}&|f(x) - f_n(x)|<\frac{\epsilon}{3} \quad \forall n>n_\epsilon \; \text{per convergenza uniforme}\\
+&|f_n(x_0) - f_n(x_0)|<\frac{\epsilon}{3} \quad \forall x \, : \, |x-x_0|<\delta_\epsilon \; \text{per continuità} \\
+&|f_n(x_0) - f(x_0)|<\frac{\epsilon}{3} \quad \forall n>n_\epsilon \; \text{per convergenza uniforme}
+\end{align}
+Da cui segue la dimostrazione con
+\begin{align}
+|f(x) - f(x_0)| \leq \epsilon
+\end{align}
+
+\subsection{Spazi di Banach}
+
+Sono detti \textbf{di Banach} quegli spazi normati $(X,||\cdot||)$ che sono anche completi nella metrica indotta dalla norma.
+
+\newpage
+
+\section{Funzioni Continue}
+
+Sia definita una funzione come un'applicazione del tipo
+\begin{align}
+f \, : \, (X,d_x) {}&\longrightarrow (Y,d_y)\\
+x \in X &\longrightarrow y \in Y
+\end{align}
+
+Essa sarà continua in $x_0 \in X$ se 
+\begin{align}
+\forall \epsilon >0 \quad \exists \delta_\epsilon \, : \, d_x(x,x_0)<\delta_\epsilon \implies d_y(y,y_0)<\epsilon
+\end{align}
+
+\bigskip
+
+Esempi di tali applicazioni posso essere:
+
+\begin{enumerate}
+	\item Funzione di una variabile
+		\begin{align}
+			f \, : \, \mathbb{R} \longrightarrow \mathbb{R}
+		\end{align}
+	\item Curva nel piano
+		\begin{align}
+			f \, : \, \mathbb{R} {}&\longrightarrow \mathbb{R}^2 \\
+			t &\longrightarrow (x(t), y(t)) \nonumber
+		\end{align}
+	\item Curva nello spazio
+		\begin{align}
+			f \, : \, \mathbb{R} {}&\longrightarrow \mathbb{R}^3 \\
+			t &\longrightarrow (x(t), y(t),z(t)) \nonumber
+		\end{align}
+	
+	\item Superficie nello spazio
+	
+	\begin{align}
+	f \, : \, \mathbb{R}^2 {}&\longrightarrow \mathbb{R}^3 \\
+	(u,v) &\longrightarrow (x(u,v), y(u,v),z(u,v)) \nonumber
+	\end{align}
+	
+	\item Funzionali (ex. l'integrale)
+	
+	\begin{align}
+	T \, : \, C^0([a,b]) {}&\longrightarrow \mathbb{R} \\
+	f &\longrightarrow T(f) \nonumber
+	\end{align}
+\end{enumerate}
+
+\subsection{Lipschitzianità di una funzione}
+
+Si dice che un'applicazione $T \, : \, X \longrightarrow X$ è Lipschitziana se 
+\begin{align}
+\exists L>0 \, : \, d(T_x, T_y) <L \, d(x,y) \quad \forall x,y \in X
+\end{align}
+
+(NOTA: $T_x= T(x)$ per eleganza)
+
+\newpage
+
+\subsection{Contrazioni}
+
+Preso uno spazio $(X,d)$ le contrazioni sono una categoria di applicazioni continue e lipschitziane $T \, : \, X \longrightarrow X$ tali che
+\begin{align}
+d(T_x,T_y)<\alpha \, d(x,y) \quad \forall x,y \in X \, ; \, \alpha \in (0,1)
+\end{align}
+
+\subsubsection{Esempio di contrazione}
+Dimostriamo come la seguente applicazione sia una contrazione
+\begin{align}
+T \, : \, C^0([0,1]) {}&\longrightarrow C^0([0,1]) \\
+f & \longrightarrow T_f= 1 + \int_{0}^{1} dt \; t e^{-xt}f(t) \nonumber
+\end{align}
+\begin{align}
+|T_{f(x)} - T_{g(x)}| {}&= |\int_{0}^{1} dt \; te^{-xt}[f(t) - g(t)]| \leq \nonumber \\
+&\leq \int_{0}^{1} dt \; te^{-xt}|f(x) - g(x)|  \leq \nonumber \\
+&\leq \int_{0}^{1} dt \; te^{-xt} \underset{[0,1]}{sup}|f(x) - g(x)|  \leq \nonumber \\
+&\leq \int_{0}^{1} dt \; te^{-xt} ||f-g||_\infty=  ||f-g||_\infty \int_{0}^{1} dt \; te^{-xt}  \leq \nonumber \\
+& \leq ||f-g||_\infty \int_{0}^{1} dt \; t = \frac{1}{2} ||f-g||_\infty
+\end{align}
+
+E quindi ne segue che $||T_f -T_g||_\infty \leq \frac{1}{2} ||f-g||_\infty$, che è una contrazione con $\alpha=\frac{1}{2}$
+
+\subsubsection{Teorema di Banach-Cacciopoli (Principio di contrazione)}
+
+Il principio di contrazione afferma che 
+\bigskip
+
+\textit{ Dati $(X,d)$ spazio metrico completo con $X\neq \emptyset$ e $T$ contrazione di $X$ in se stesso, avremo che $T$ \textbf{ammette un solo \underline{punto fisso}} $\overline{x} \, : \, T_{\overline{x}} = \overline{x}$}
+
+\bigskip
+
+Inziamo la dimostrazione prendendo $x_0 \in X$ e definendo una successione $\left\{ x_n\right\}_{n \geq 1} \in X$ per ricorrenza come
+\begin{align}
+x_1= T_{x_0}\;  , \; x_2 = T_{x_1} \;  , \; \dots \;  , \; x_{n+1} = T_{x_n}
+\end{align}
+
+Per prima cosa dimostriamo come essa sia di Cauchy:
+
+Per costruzione e per definizione di contrazione avremo che
+\begin{align}
+d(x_1,x_2)= d(T_0,T_1)\leq \alpha \, d(x_0,x_1)
+\end{align}
+
+Da cui ricaviamo che 
+\begin{align}
+{}&d(x_2,x_3) \leq \alpha \, d(x_1,x_2) \leq \alpha^2 \, d(x_0,x_1) \nonumber \\
+&\downarrow \nonumber \\
+&d(x_n,x_{n+1}) \leq \alpha^2 \, d(x_{n-1},x_n) \leq \dots \leq \alpha^n \, d(x_0,x_1)
+\end{align}
+
+Da questo segue che, usando la disuguaglianza triangolare:
+\begin{align}
+d(x_{n+p}, x_n) {}&\leq d(x_{n+p}, x_{n+p-1}) + d(x_{n+p-1}, x_{n+p-2})  + \dots + \d(x_{n+1}, x_{n}) \leq \nonumber \\
+& \leq (\alpha^{n+p-1} + \dots + \alpha^{n}) \, d(x_0,x_1)= \alpha^n \sum_{k=0}^{p-1}\alpha^k d(x_0,x_1) 
+\end{align}
+Ma la sommatoria è una ridotta della serie geometrica, di cui conosciamo la somma! Possiamo quindi scrivere
+\begin{align}
+d(x_{n+p}, x_n)  \leq  \alpha^n \frac{1-\alpha^{p-1}}{1-\alpha} \, d(x_0,x_1) \leq \frac{\alpha^n}{1-\alpha} \, d(x_0,x_1)
+\end{align}
+
+Ma notando come con le maggiorazioni sia sparita la dipendenza da p, e ricordando che $\alpha$ è infinitesimo, ricaviamo
+\begin{align}
+\underset{n\rightarrow \infty}{\lim}a^n=0 \implies d(x_{n+p}, x_n) < \epsilon \quad \forall n>n_\epsilon \, ; \, \forall p>0
+\end{align}
+E sono quindi verificate le ipotesi di Cauchy.
+
+\newpage
+
+Ora che abbiamo questa informazione sappiamo anche che, nello spazio metrico completo $(X,d)$ avremo che 
+\begin{align}
+\exists \, \overline{x} \in X \, : \, \underset{n\rightarrow \infty}{\lim}x_n= \overline{x}
+\end{align}
+
+Dobbiamo ora dimostrare il suo essere un punto fisso:
+\begin{align}
+0 \leq d(T_{x_n}, T_{\overline{x}}) \leq \alpha \, d(x_n, \overline{x})\overset{n\rightarrow \infty}{\longrightarrow}0 \implies d(T_{x_n}, T_{\overline{x}}) =0
+\end{align} 
+ma per costruzione $T_{x_n}=x_{n+1}$, questo significa che
+\begin{align}
+ d(x_{n+1}, T_{\overline{x}})\overset{n\rightarrow \infty}{\longrightarrow}0 \implies \underset{n\rightarrow \infty}{\lim}x_{n+1}= \overline{x} = \underset{n\rightarrow \infty}{\lim}x_n
+\end{align}
+E per il teorema dell'unicità del limite segue che $T_{\overline{x}}=\overline{x}$
+
+Rimane ora solo da dimostrarne l'unicità. Procediamo per assudro:
+
+\begin{align}
+\exists \hat{x},\overline{x} \in X \, , \, \hat{x}\neq \overline{x}  \, , \, T_{\hat{x}}=\hat{x} \, , \, T_{\overline{x}}=\overline{x} \\
+0\leq d(\hat{x},\overline{x})= d(T_{\hat{x}},T_{\overline{x}}) \leq \alpha \, d(\hat{x},\overline{x}) < d(\hat{x},\overline{x})
+\end{align}
+
+Il che è impossibile, perché ci troviamo ad avere una distanza strettamente minore di se stessa, essendo $\alpha <1$. Il teorema è così dimostrato.
+
+\newpage
+
+\section{Successioni di funzioni}
+
+Si parla di successioni di funzioni quando si ha
+\begin{align}
+\left\{f_n \right\}_{n\geq 1} \quad ; \quad f_n \, : \, I \subseteq \mathbb{R} \longrightarrow \mathbb{R}
+\end{align}
+
+\subsection{Criteri di convergenza}
+
+\subsubsection{Convergenza Puntuale}
+
+Si dice che $\left\{f_n \right\}_{n\geq 1}$ converge \textbf{puntualmente} in $I$ se
+\begin{align}
+\forall x\in I \quad  \exists f(x) \, : \, \underset{n\rightarrow \infty}{\lim} f_n(x)= f(x)
+\end{align}
+
+In simboli si scrive $f_n(x) \longrightarrow f(x)$
+
+\subsubsection{Convergenza Uniforme}
+
+Si dice che $\left\{f_n \right\}_{n\geq 1}$ converge \textbf{uniformemente} a $f(x) \, : \, I \subseteq \mathbb{R} \longrightarrow \mathbb{R}$ in $I$ se
+\begin{align}
+\underset{n\rightarrow \infty}{\lim} \underset{x\in I}{sup}| f_n(x) - f(x)|=0
+\end{align}
+
+Si può anche scrivere $\underset{n\rightarrow \infty}{\lim} \underset{x\in I}{sup}| f_n(x) - f(x)| = ||f_n(x) - f(x)||_\infty$ ma si perde l'informazione dell'intervallo.
+
+\bigskip
+
+In simboli si scrive $f_n(x) \rightrightarrows f(x)$
+
+\bigskip
+
+\textbf{Osservazione:} La convergenza uniforma implica quella puntuale, infatti siccome
+\begin{align}
+x \in X \quad | f_n(x) - f(x)| \leq\underset{x\in I}{sup}| f_n(x) - f(x)|
+\end{align}
+
+Se c'è convergenza uniforme allora $\leq\underset{x\in I}{sup}| f_n(x) - f(x)|$ è infinitesimo, allora
+\begin{align}
+0 \leq| f_n(x) - f(x)| \leq \underset{x\in I}{sup}| f_n(x) - f(x)|<\epsilon 
+\end{align}
+
+Da cui seguen la conv. puntuale.
+
+\subsubsection{Esempi}
+
+\begin{enumerate}
+	\item $f_n(x)=x^n \spacer x \in [0,1]$
+	\begin{enumerate}
+		\item \underline{convergenza puntuale}
+		\begin{align}
+		f_n(x) =  \triple{0 \quad {}&x=0 }{x^n \quad &x\in (0,1)}{1 \quad &x=1} \arrowlim{n}{\infty} f(x)=\double{0 \quad {}& x\in [0,1)}{1 \quad &x=1}
+		\end{align}
+		\item \underline{convergenza uniforme}
+		\begin{align}
+		\{f_n(x)\}\in C^0([0,1])
+		\end{align}
+		Se $f_n(x)\underset{[0,1]}{\rightrightarrows} f(x)$ allora $\{f_n(x)\}$ è di Cauchy in $C^0([0,1])$
+		
+		Ma allora, essendo  $C^0([0,1])$ uno spazio metrico completo anche $f(x)$ dovrebbe appartenervi, ma ciò non è perché è discontinua. Quindi non c'è convergenza uniforme in $[0,1]$.
+	\end{enumerate}
+	
+	\newpage
+	
+	\item $f_n(x)= \sqrt{x^2 + \frac{1}{n^2}}$
+		\begin{enumerate}
+		\item \underline{convergenza puntuale}
+		\begin{align}
+		f_n(x) \arrowlim{n}{\infty} \sqrt{x^2}=|x| =f(x)
+		\end{align}
+		\item \underline{convergenza uniforme}
+		\begin{align}
+		0\leq \left( \sqrt{x^2 + \frac{1}{n^2}} - \sqrt{x^2}=  \right) {}&= \left( \sqrt{x^2 + \frac{1}{n^2}} - \sqrt{x^2}  \right) \frac{ \sqrt{x^2 + \frac{1}{n^2}} + \sqrt{x^2}  }{\sqrt{x^2 + \frac{1}{n^2}} + \sqrt{x^2}} = \continue 
+		&= \frac{x^2 + \frac{1}{n^2} - x^2}{\sqrt{x^2 + \frac{1}{n^2}} + \sqrt{x^2}} = \continue
+		&= \fracn{\sqrt{x^2 + \frac{1}{n^2}} + \sqrt{x^2}}\fracn{n^2} \leq \continue
+		&\leq \fracn{\fracn{n}}\fracn{n^2} = \fracn{n}\arrowlim{n}{\infty}0
+		\end{align}
+		
+		Non dipendendo da $x$ il sup e annullandosi abbiamo convergenza uniforme su tutto $\R$.
+		
+	\end{enumerate}
+
+	\item $f_n(x) = \triple{nx \quad {}&x\in[0,n^{-1}]}{2-nx \quad &x\in (n^{-1}, 2\cdot n^{-1})}{0 \quad &x\in [2 \cdot n^{-1},1]}$
+	\begin{enumerate}
+	\item \underline{convergenza puntuale}
+	\begin{align}
+	{}&f_n(0) = 0 \arrowlim{n}{\infty}0\\
+	& \text{per }x>0 \text{ avremo che per n molto grandi } x\in (\frac{2}{n} \spacecomma 1] \nextpassage
+	&f_n(x)=0 \arrowlim{n}{\infty}0 \quad \forall n>\frac{2}{\lambda}
+	\end{align}
+	
+	Abbiamo quindi convergenza puntuale a $f(x) \equiv 0$
+	\item \underline{convergenza uniforme}
+	\begin{align}
+	\Sup{I} |f_n(x)-0|= \underset{I}{max}f_n(x)=f_n\left(\fracn{n}\right)=1 \notends 0
+	\end{align}
+		E quindi non si ha convergenza uniforme.
+	
+	\end{enumerate}
+	
+	\item $f_n(x)= (1-x)x^n \quad x \in [0,1]$
+	\begin{enumerate}
+		\item \underline{convergenza puntuale}
+		\begin{align}
+		{}&f_n(0) = 0  \arrowlim{n}{\infty}0 \\
+		&f_n(x) \arrowlim{n}{\infty}0 \quad x\in (0,1)\\
+		&f_n(1)= 0 \arrowlim{n}{\infty}0 
+		\end{align}
+		
+		Abbiamo quindi convergenza puntuale a $f(x)\equiv 0$
+		
+		\item \underline{convergenza uniforme}
+		\begin{align}
+		||(1-x)x^n  - 0||_\infty = \underset{I}{max} (1-x)x^n = \underset{I}{max}\, g(x) \geq 0 
+		\end{align}
+		
+		Per trovare questo massimo procediamo nel seguente modo
+		\begin{align}
+		{}&g(x)= (1-x)x^n 	\implies g'(x)= -x^n + (1-x)nx^{n-1} \nextpassage
+		& x^{n-1} (n-xn-x) = x^{n+1}[n(1+n)x]=0 \nextpassage &\double{x_0=0}{x_1=\frac{n}{1+n}<1} \implies \double{g(x_0)=0}{g(x_1)= \frac{1}{1+n} (\frac{n}{1+n})^n >0}
+		\end{align}
+				
+		Il punto di max è chiaramente $x_1$, quindi ci troviamo a studiare		
+		\begin{align}
+		||(1-x)x^n  - 0||_\infty {}&= \underset{I}{max}\, g(x) = g(x_1)= \left(1-\frac{n}{n+1}\right) \left(\frac{n}{n+1}\right)^n= \continue
+		&= \frac{1}{n+1}\left(\frac{1}{\fracn{n} +1}\right)^n \arrowlim{n}{\infty} 0 \cdot \fracn{e}=0
+		\end{align}
+		
+		Essendo il risultato indipendente da $x$ abbiamo convergenza uniforme su tutto $\R$.		
+	\end{enumerate}
+	
+	\item $f_n(x)=\frac{nx}{1+ (nx)^2} \spacer I=[-1,+1]$
+	\begin{enumerate}
+		\item \underline{convergenza puntuale}
+		\begin{align}
+		f_n(x) =  \double{0 \quad {}&x=0}{f_n(x) \quad &x\neq 0} \arrowlim{n}{\infty} 0 \implies f(x) \equiv 0
+		\end{align}
+		\item \underline{convergenza uniforme}
+		\begin{align}
+		||f_n(x) - 0||_\infty = \underset{I}{max} \absval{\frac{nx}{1+ (nx)^2}}
+		\end{align}
+		
+		Poniamo $t= nx$ e studiamo $g(t)= \frac{t}{1+ t^2}$
+		\begin{align}
+		g'(t){}&= \frac{1}{1 + t^2} - 2\frac{t^2}{(1+t^2)^2} = \continue
+		&= \frac{1 + t^2 -2t^2}{(1+t^2)^2}=\frac{1 -t^2}{(1+t^2)^2}=0 \implies \double{t_1 = -1}{t_2 = +1}
+		\end{align}
+		
+		Da cui avremo che il punto di massimo si ha per $x_M = \fracn{n}$, e quindi
+		
+		\begin{align}
+		||f_n(x) - 0||_\infty = \underset{I}{max} \absval{\frac{nx}{1+ (nx)^2}}= \frac{1}{1+1}=\half \notends 0
+		\end{align}
+		E non si ha quindi convergenza uniforme.	
+	\end{enumerate}
+	
+\end{enumerate}
+
+\subsection{Teoremi sulle successioni}
+
+\subsubsection{Primo Teorema}
+
+\textit{
+Date $\left\{f_n \right\}_{n\geq 1}$ con $f_n(x)\in C^0(I)$ $I\subseteq \mathbb{R}$, avremo che}
+\begin{align}
+f_n(x) \rightrightarrows f(x) \implies f(x)\in C^0(I)
+\end{align}
+
+\textbf{Osservazione:} $I=[a,b]$ segue dalla completezza di $C^0([a,b])$ 
+
+\bigskip
+
+Dimostriamo il teorema:
+\begin{align}
+f_n(x) \rightrightarrows f(x) \implies \forall \epsilon >0 \quad \exists n>n_\epsilon \, : \, \underset{x\in I}{sup}| f_n(x) - f(x)|<\epsilon 
+\end{align}
+Per la disuguaglianza triangolare avremo che
+\begin{align}
+|f(x)-f(x_0)| \leq |f(x) - f_{n_\epsilon + 1}(x)|+|f_{n_\epsilon + 1}(x)- f_{n_\epsilon + 1}(x_0)|+|f_{n_\epsilon + 1}(x_0) - f(x_0)|
+\end{align}
+Ma sappiamo che
+\begin{align}
+{}& |f(x) - f_{n_\epsilon + 1}(x)|\leq||f_{n_\epsilon + 1}(x) - f(x)||_\infty <\epsilon \\
+& |f_{n_\epsilon + 1}(x)- f_{n_\epsilon + 1}(x_0)|<\epsilon \quad \text{per continuità di }f_{n_\epsilon + 1} \\
+& |f_{n_\epsilon + 1}(x_0) - f(x_0)| \leq||f_{n_\epsilon + 1}(x_0) - f(x_0)||_\infty <\epsilon 
+\end{align}
+E quindi segue che
+\begin{align}
+\forall \epsilon>0  \quad \exists \delta_\epsilon \, : \, |f(x)-f(x_0)| < 3\epsilon \quad \forall x \, : \, |x-x_0|<\delta_\epsilon
+\end{align}
+e il teorema è dunque dimostrato.
+
+\subsubsection{Secondo Teorema (Scambio Limite e Integrale)}
+\textit{
+Date $\left\{f_n \right\}_{n\geq 1}$ con $f_n(x)\in C^0([a,b])$ $[a,b]\subseteq \mathbb{R}$, avremo che}
+
+\begin{align}
+f_n(x)\underset{[a,b]}{\rightrightarrows} f(x) \implies \int_{a}^{b} dt \, \underset{n\rightarrow \infty}{\lim}f_n(t)= \underset{n\rightarrow \infty}{\lim} \int_{a}^{b} dt \, f_n(t) 
+\end{align}
+\textit{e quindi anche}
+\begin{align}
+\int_{a}^{b} dt \, f(t)= \underset{n\rightarrow \infty}{\lim} \int_{a}^{b} dt \, f_n(t)
+\end{align}
+
+La dimostrazione si svolge nel seguente modo
+\begin{align}
+\left|\int_{a}^{b} dt \, f_n(t) - \int_{a}^{b} dt \, f(t)\right| {}&= \left|\int_{a}^{b} dt \, [f_n(t) -  f(t)]\right| \leq \nonumber \\
+&\leq \int_{a}^{b} dt \, |f_n(t) -  f(t)| \leq \nonumber \\
+&\leq \int_{a}^{b} dt \, \underset{[a,b]}{max}|f_n(x) -  f(x)| = \nonumber \\
+&= \int_{a}^{b} dt ||f_n(x) -  f(x)||_\infty = \nonumber \\
+&= ||f_n(x) -  f(x)||_\infty \int_{a}^{b} dt = \nonumber \\
+&=||f_n(x) -  f(x)||_\infty (b-a)
+\end{align} 
+
+Ma se $f_n(x) \rightrightarrows f(x)$ segue che $||f_n(x) -  f(x)||_\infty \overset{n\rightarrow \infty}{\longrightarrow} 0$
+
+Da cui, ricordando che il modulo è una quantità non negativa, otteniamo il risultato desiderato:
+\begin{align}
+0 \leq \left|\int_{a}^{b} dt \, f_n(x) - \int_{a}^{b} dt \, f(x)\right| \leq 0
+\end{align}
+
+\subsubsection{Terzo Teorema (Scambio Derivata e Limite)}
+
+Siccome abbiamo visto come sotto determinate condizioni è possibile scambiare anche derivata e limite. 
+
+Come per l'integrale, la risposta in generale è: \textbf{No}, comke vediamo negli esempi che seguono.
+
+\begin{enumerate}
+	\item $f_n(x)= \sqrt{x^2 + \frac{1}{n}} \quad; \quad x\in I\subseteq \mathbb{R}$
+		
+		Infatti
+		\begin{align}
+		f_n'(x)= \frac{x}{\sqrt{x^2 + \frac{1}{n}}} \implies f_n'(0) = 0 
+		\end{align}
+		Ma
+		\begin{align}
+		\underset{n\rightarrow \infty}{\lim} f_n(x)= |x|
+		\end{align}
+		Che non è derivabile in 0.
+	
+	\item $f_n(x) = \frac{\sin(nx)}{n}\in \mathbb{R} \; \text{oppure} \; [a,b]$ 
+		\begin{align}
+		{}&f_n'(x)=\cos(nx)\\
+		&\underset{n\rightarrow \infty}{\lim} f_n(x)= \left\{
+		\begin{array}{cc}
+			0 \quad nx=0  \quad \quad \quad \quad \;\; \\
+			0 \quad nx \, : \, sin(nx) \neq 0
+		\end{array}
+		\right. \implies f(x) \equiv 0 = f'(x)
+		\end{align}
+	
+	Ma $\nexists \underset{n\rightarrow \infty}{\lim} cos(nx)$, e quindi non si possono scambiare.
+\end{enumerate}	 
+\newpage
+
+Enunciamo quindi il \textbf{Teorema di Scambio tra Derivata e Limite:}
+
+\bigskip
+
+\textit{Sia $\left\{f_n\right\}$ con $f_n(x) \in C^1([a,b])$ se valgono le seguenti ipotesi: }
+\begin{enumerate}
+	\item $\exists x_0 \in [a,b] \, : \, f_n(x_0) \overset{n\rightarrow \infty}{\longrightarrow} l\in \mathbb{R}$
+	
+	\item $\left\{f'_n\right\} \, : \, f'_n(x) \rightrightarrows g(x)$ 
+\end{enumerate}
+
+\smallskip
+
+\textit{Allora segue che:}
+\begin{enumerate}
+	\item $f_n \rightrightarrows  f(x)$
+	\item $f(x)\in C^1([a,b]) \, ; \, f'(x) =g(x) \leftrightarrow f'(x)= \frac{d}{dx} \underset{n\rightarrow \infty}{\lim}f_n(x)=  \underset{n\rightarrow \infty}{\lim} \frac{d}{dx}f_n(x) $
+\end{enumerate}		
+
+Per la dimostrazione si parte dal th. fondamentale del calcolo, che ci dice:
+\begin{align}
+	f_n(x)=f_n(x_0) + \int_{x_0}^{x} dt \, f_n'(x)
+\end{align}
+Da cui otteniamo, passando a limite
+\begin{align}
+	\underset{n\rightarrow \infty}{\lim} f_n(x)=l +  \underset{n\rightarrow \infty}{\lim}\int_{x_0}^{x} dt \, f_n'(t)
+\end{align}
+ma siccome le ipotesi sono le stesse del th. di scambio fra limite e integrale scriviamo
+\begin{align}
+	\underset{n\rightarrow \infty}{\lim} f_n(x)=l +  \int_{x_0}^{x} dt \, g(t)
+\end{align}
+Ma questo implica che
+\begin{align}
+	\exists f(x)= l +  \int_{x_0}^{x} dt \, g(t) \quad \forall x\in[a,b] \,: \, f_n(x) \longrightarrow f(x)
+\end{align}
+Questo ci porta ad avere
+\begin{align}
+	|f_n(x)- f(x)| {}&= |f_n(x_0) - l + \int_{x_0}^{x} dt \, [f'_n(t) - g(t)]| \leq \nonumber \\ 
+	&\leq |f_n(x_0) - l| + |\int_{x_0}^{x} dt \, [f'_n(t) - g(t)]|\leq \nonumber \\ 
+	&\leq |f_n(x_0) - l| + ||f'_n(t) - g(t)||_\infty|x-x_0| \leq \nonumber \\ 
+	&\leq |f_n(x_0) - l| + ||f'_n(t) - g(t)||_\infty |b-a|
+\end{align}
+
+Ma sappiamo che
+\begin{align}
+	{}& |f_n(x_0) - l|<\epsilon \quad \text{per continuità delle } f_n(x)\\
+	& ||f'_n(t) - g(t)||_\infty <\epsilon \quad \text{per la seconda ipotesi del teorema}
+\end{align}
+Questo implica, essendo entrambi \textbf{strettamente minori}, che anche
+\begin{align}
+	||f_n(x_0) - l||_\infty<\epsilon \quad \forall x\in[a,b]\, , \, \forall n>n_\epsilon
+\end{align}
+
+Questo dimostra la prima tesi, mentre la seconda di nuovo dal th. fondamentale del calcolo, in quanto
+\begin{align}
+	f(x)=f(x_0) + \int_{x_0}^{x} dt \, f'(x)
+\end{align}
+ma
+\begin{align}
+	f(x)= \underset{n\rightarrow \infty}{\lim} f_n(x)= l +  \int_{x_0}^{x} dt \, \underset{n\rightarrow \infty}{\lim} f_n'(t)
+\end{align}
+e dato che per conitnuità $f(x_0)=l$, sottraendo membro a membro otteniamo infine che
+\begin{align}
+	f'(x) = \underset{n\rightarrow \infty}{\lim} f_n'(t)
+\end{align}
+
+\newpage
+
+\subsection{Completezza di $C^1([a,b])$}
+
+Abbiamo visto come $C^0$ sia completo con la norma $d_0(f,g)=||f-q||_\infty$
+
+Ci chiediamo ora: con quale metrica sarà completo $C^1$? Non con $d_0(f,g)$, visto che
+\begin{align}
+	f_n(x)= \sqrt{x^2 + \frac{1}{n}} \rightrightarrows |x| \quad x\in[-1,+1]
+\end{align} 
+Che è sì di cauchy, ma non converge ad una funzione di classe $C^1$.
+
+Introduciamo quindi la seguente metrica
+\begin{align}
+	d_1(f,g) {}&= \underset{[a,b]}{sup}|f(x)-g(x)|+\underset{[a,b]}{sup}|f'(x)-g'(x)| = \\ 
+	&=||f(x)-g(x)||_\infty + ||f'(x)-g'(x)||_\infty
+\end{align}
+
+Con questa metrica avremo che se $\left\{f_n(x)\right\}$ è di Cauchy in $(C^1([a,b]),d_1)$ allora
+\begin{align}
+	{}&||f(x)-g(x)||_\infty < \epsilon \\
+	&||f'(x)-g'(x)||_\infty < \epsilon
+\end{align}
+
+Questo vuol dire che entrambe sono di Cauchy in $(C^0([a,b]),d_0)$, e che sono anche verificate le ipotesi del teorema di scambio fra derivata e limite, e troviamo quindi che
+\begin{align}
+	\left\{
+	\begin{array}{cc}
+		f(x)\in C^1([a,b]) \\
+		f_n'\rightrightarrows f'(x)
+	\end{array}
+	\right. \implies f_n \overset{d_1}{\longrightarrow} f \in C^1([a,b])
+\end{align}
+E quindi $(C^1([a,b]),d_1)$ è completo.
+
+Un altro esempio di metrica in cui $C^1$ è completo si ha, preso ad esempio l'intervallo $[0,1]$ con 
+\begin{align}
+	\tilde{d}(f,g) {}&= |f(x) - g(x)| + \Sup{[0,1]}|f'(x) - g'(x)| = \continue
+	&= |f(x) - g(x)| + ||f'(x) - g'(x)||_\infty
+\end{align}
+
+Data $\{f_n(x)\}\in C^1([0,1])$ se è di Cauchy allora $f_n(x) \overset{\tilde{d}}{\longrightarrow} f(x)$
+
+Deve essere inoltre che
+\begin{align}
+	\forall \epsilon> 0 \quad \exists n_\epsilon \taleche |f_{n+p} - f_n| + ||f_{n+p}' - f_n'||_\infty<\epsilon \quad  \begin{array}{cc}
+		\forall n>n_\epsilon \\
+		\forall p>0
+	\end{array}
+\end{align}
+
+Ma questo implica che
+\begin{align}
+	{}&|f_{n+p}(0) - f_n(0)| < \epsilon \implies \{f_n(0)\} \text{ di Cauchy in } \R \text{ completo} \\
+	& ||f_{n+p}' - f_n'||_\infty<\epsilon \implies \{f_n'\} \text{ di Cauchy in } (C^0([a,b]), ||\cdot||_\infty) 
+\end{align}
+
+La seconda implica anche che $f'(x) \rightrightarrows g(x) \in (C^0([a,b])$, e abbiamo quindi tutte le ipotesi del th. di scambio tra limite e derivata!
+
+Ci troviamo quindi a lavorare con una metrica che fa sì che
+\begin{align}
+	{}&f_n \overset{\tilde{d}}{\longrightarrow} f\\
+	& f'_n \overset{\tilde{d}}{\rightrightarrows} f'
+\end{align}
+
+E abbiamo quindi la completezza di $C^1$ con la metrica $\tilde{d}$.
+
+\bigskip
+
+Chiudiamo il discorso delle successioni di funzioni con un \textbf{esempio}:
+\begin{align}
+	f_n(x)= \frac{x[(nx)^2 -2]}{(nx)^2 +1}
+\end{align}
+
+\begin{enumerate}
+	\item \underline{convergenza puntuale:}
+	\begin{align}
+		\limit{n}{\infty}\frac{x[(nx)^2 -2]}{(nx)^2 +1}= \double{0 \quad {}&x=0}{x \quad &x=0}
+	\end{align}
+	\item \underline{convergenza uniforme:}
+	\begin{align}
+		\Sup{\R}\absval{\frac{x[(nx)^2 -2]}{(nx)^2 +1} -x} = \Sup{\R}\absval{\frac{x}{(nx)^2 +1}}
+	\end{align}
+\end{enumerate}
+
+In modo analogo ad altri esercizi studiamo la derivata della $f_n(x)$ e troviamo un punto di massimo in $x= \frac{1}{n}$ da cui
+\begin{align}
+	\Sup{\R}\absval{\frac{x}{(nx)^2 +1}} = \frac{\frac{1}{n}}{(n\frac{1}{n})^2 +1} = \fracn{2n} \arrowlim{n}{\infty}0
+\end{align}
+
+E abbiamo quindi convergenza uniforme.
+

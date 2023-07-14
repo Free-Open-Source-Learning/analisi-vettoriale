@@ -1,0 +1,186 @@
+\documentclass[a4paper,12pt]{book}
+\usepackage[legalpaper, portrait, margin=0.5in]{geometry}
+\usepackage[utf8]{inputenc}
+\usepackage{graphicx}
+\usepackage{braket}
+\usepackage{dsfont}
+\usepackage{amsmath}
+\usepackage{mathtools}
+\usepackage{cancel}
+\usepackage{bbold}
+\usepackage{titlepic}
+\usepackage{amssymb}
+\usepackage{amsthm}
+\usepackage{hyperref}
+\setcounter{secnumdepth}{3}
+\setcounter{tocdepth}{3}
+
+
+\newcommand{\limit}[2]{\underset{#1 \rightarrow #2}{\lim} \,}
+\newcommand{\arrowlim}[2]{\overset{#1 \rightarrow #2}{\longrightarrow}}
+\newcommand{\arrowlimtwo}[4]{\overset{\scriptsize{\begin{array}{cc}
+			#1 {}&\rightarrow #2\\
+			#3 &\rightarrow #4
+		\end{array}}
+	}{\longrightarrow}}
+\newcommand{\notends}{\cancel{\longrightarrow}}
+\newcommand{\Exp}[1]{e^{#1}}
+\newcommand{\half}{\frac{1}{2}}
+\newcommand{\fracn}[1]{\frac{1}{#1}}
+\newcommand{\dertot}[2]{\frac{d #1}{d #2}}
+\newcommand{\dertotk}[3]{\frac{d^{#1} #2}{d #3^{#1}}}
+\newcommand{\partialder}[2]{\frac{\partial #1}{\partial #2}}
+\newcommand{\derdir}{D_{\hat v}}
+\newcommand{\absval}[1]{\left| #1 \right|}
+\newcommand{\Arctan}[2]{\arctan \left( \frac{#1}{#2} \right)}
+\newcommand{\Arccotan}[2]{\arccotan \left( \frac{#1}{#2} \right)}
+\newcommand{\R}{\mathbb{R}}
+\newcommand{\N}{\mathbb{N}}
+\newcommand{\Q}{\mathbb{Q}}
+
+\newcommand{\Sup}[1]{\underset{#1}{sup}}
+
+\newcommand{\doubteq}{\overset{?}{=}}
+
+\newcommand{\taleche}{\, : \,}
+\newcommand{\spacer}{\quad ; \quad}
+\newcommand{\spacecomma}{\, , \,}
+\newcommand{\continue}{\nonumber \\}
+\newcommand{\nextpassage}{\nonumber \\ &\downarrow \nonumber \\}
+
+
+\newcommand{\gradient}[2]{\nabla #1(#2)}
+\newcommand{\jacobian}[2]{\boldsymbol{J}_{#1} (#2)}
+\newcommand{\hessian}[2]{\boldsymbol{H}_{#1} (#2)}
+\newcommand{\genericOp}{\boldsymbol{Q}}
+\newcommand{\vech}{\underline{h}}
+\newcommand{\vecx}{\underline{x}}
+\newcommand{\vecX}{\underline{X}}
+\newcommand{\vecy}{\underline{y}}
+\newcommand{\vecY}{\underline{Y}}
+\newcommand{\vecz}{\underline{z}}
+\newcommand{\vecZ}{\underline{Z}}
+\newcommand{\veczero}{\underline{0}}
+\newcommand{\vecp}{\underline{p}}
+\newcommand{\vecP}{\underline{P}}
+\newcommand{\vecf}{\underline{f}}
+\newcommand{\vecF}{\underline{F}}
+\newcommand{\vecg}{\underline{g}}
+\newcommand{\vecq}{\underline{q}}
+\newcommand{\vecxi}{\underline{\xi}}
+\newcommand{\matrixTwoTwo}[4]{\left(
+	\begin{array}{ccc}
+		#1 & #2 \\
+		#3 & #4
+	\end{array}
+	\right)}
+\newcommand{\matrixThreeThree}[9]{\left(
+	\begin{array}{ccc}
+		#1 & #2 & #3\\
+		#4 & #5 & #6\\
+		#7 & #8 & #9
+	\end{array}
+	\right)}
+
+\newcommand{\matrixThreeTwo}[6]{\left(
+	\begin{array}{ccc}
+		#1 & #2 & #3\\
+		#4 & #5 & #6\\
+	\end{array}
+	\right)}
+
+\newcommand{\matrixTwoThree}[6]{\left(
+	\begin{array}{ccc}
+		#1 & #2\\ 
+		#3 & #4\\
+	    #5 & #6\\
+	\end{array}
+	\right)}
+
+\newcommand{\veccolTwo}[2]{\left(
+	\begin{array}{cc}
+		#1 \\
+		#2
+	\end{array}
+	\right)}
+\newcommand{\veccolTwogen}{\left(
+	\begin{array}{cc}
+		x \\
+		y
+	\end{array}
+	\right)}
+\newcommand{\veccolThree}[3]{\left(
+	\begin{array}{cc}
+		#1 \\
+		#2 \\
+		#3
+	\end{array}
+	\right)}
+\newcommand{\veccolFour}[4]{\left(
+	\begin{array}{cc}
+		#1 \\
+		#2 \\
+		#3\\
+		#4
+	\end{array}
+	\right)}
+\newcommand{\veccolThreegen}{\left(
+	\begin{array}{cc}
+		x \\
+		y \\
+		z
+	\end{array}
+	\right)}
+
+
+\newcommand{\double}[2]{\left\{\begin{array}{cc}
+		#1 \\
+		#2 
+	\end{array}\right.}
+\newcommand{\triple}[3]{\left\{\begin{array}{cc}
+		#1 \\
+		#2 \\
+		#3
+	\end{array}\right.}
+\newcommand{\quadruple}[4]{\left\{\begin{array}{cc}
+		#1 \\
+		#2 \\
+		#3 \\
+		#4
+	\end{array}\right.}
+
+
+\newcommand{\except}[1]{\backslash \{ #1 \} }
+
+\newcommand{\Lmis}{$L_{mis}$ }
+\newcommand{\Lint}{$L_{int}$ }
+\newcommand{\Rint}{$R_{int}$ }
+\newcommand{\qo}{$Q.O.$ }
+
+
+\begin{document}
+
+\newcommand{\deffuncR}[2]{f \taleche A\subseteq \R^{#1} \longrightarrow \R^{#2} }
+\newcommand{\deffuncRgen}[3]{#1 \taleche A\subseteq \R^{#2} \longrightarrow \R^{#3} }
+\newcommand{\deffuncRn}{f \taleche A\subseteq \R^n \longrightarrow \R^n}
+
+\author{Alessandro Marcelli}
+\title{Appunti di Analisi Vettoriale}
+\date{2019}
+
+\titlepic{\includegraphics[width=0.8\textwidth]{images/genius_by_lunarisfuryaileron_d2qp8sd-fullview.jpg}}
+
+\frontmatter
+\maketitle
+\tableofcontents
+
+\mainmatter
+\include{./TeX_files/chapter01}
+\include{./TeX_files/chapter02}
+\include{./TeX_files/chapter03}
+\include{./TeX_files/chapter04}
+\include{./TeX_files/chapter05}
+\backmatter
+% bibliography, glossary and index would go here.
+
+\end{document}
