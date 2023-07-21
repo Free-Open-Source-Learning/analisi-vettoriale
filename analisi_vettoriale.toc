@@ -1,156 +1,156 @@
 \contentsline {chapter}{\numberline {1}Spazi metrici e successioni di funzioni}{1}{chapter.1}%
 \contentsline {section}{\numberline {1.1}Distanze}{1}{section.1.1}%
 \contentsline {section}{\numberline {1.2}Intorni}{1}{section.1.2}%
-\contentsline {section}{\numberline {1.3}Esempi di metriche}{1}{section.1.3}%
-\contentsline {subsection}{\numberline {1.3.1}Metrica discreta}{1}{subsection.1.3.1}%
+\contentsline {section}{\numberline {1.3}Esempi di metriche}{2}{section.1.3}%
+\contentsline {subsection}{\numberline {1.3.1}Metrica discreta}{2}{subsection.1.3.1}%
 \contentsline {subsection}{\numberline {1.3.2}Metrica Euclidea}{2}{subsection.1.3.2}%
 \contentsline {subsection}{\numberline {1.3.3}Metriche "equivalenti"}{3}{subsection.1.3.3}%
 \contentsline {section}{\numberline {1.4}Spazio delle funzioni continue}{4}{section.1.4}%
 \contentsline {section}{\numberline {1.5}Spazi normati}{4}{section.1.5}%
-\contentsline {section}{\numberline {1.6}Tipologie di punti}{4}{section.1.6}%
-\contentsline {section}{\numberline {1.7}Successioni}{5}{section.1.7}%
-\contentsline {subsection}{\numberline {1.7.1}Successioni convergenti}{5}{subsection.1.7.1}%
-\contentsline {subsection}{\numberline {1.7.2}Successioni di Cauchy}{5}{subsection.1.7.2}%
-\contentsline {section}{\numberline {1.8}Spazi}{6}{section.1.8}%
-\contentsline {subsection}{\numberline {1.8.1}Spazi compatti}{6}{subsection.1.8.1}%
-\contentsline {subsection}{\numberline {1.8.2}Spazi completi}{6}{subsection.1.8.2}%
-\contentsline {subsubsection}{\numberline {1.8.2.1}Spazi completi (Ex.)}{6}{subsubsection.1.8.2.1}%
-\contentsline {subsubsection}{\numberline {1.8.2.2}Spazi \underline {non} completi (Ex.)}{6}{subsubsection.1.8.2.2}%
-\contentsline {subsubsection}{\numberline {1.8.2.3}$(C^0([a,b]), ||\cdot ||_\infty )$ (Ex.)}{6}{subsubsection.1.8.2.3}%
-\contentsline {subsection}{\numberline {1.8.3}Spazi di Banach}{7}{subsection.1.8.3}%
-\contentsline {section}{\numberline {1.9}Funzioni Continue}{8}{section.1.9}%
-\contentsline {subsection}{\numberline {1.9.1}Lipschitzianità di una funzione}{8}{subsection.1.9.1}%
-\contentsline {subsection}{\numberline {1.9.2}Contrazioni}{9}{subsection.1.9.2}%
-\contentsline {subsubsection}{\numberline {1.9.2.1}Esempio di contrazione}{9}{subsubsection.1.9.2.1}%
-\contentsline {subsubsection}{\numberline {1.9.2.2}Teorema di Banach-Cacciopoli (Principio di contrazione)}{9}{subsubsection.1.9.2.2}%
-\contentsline {section}{\numberline {1.10}Successioni di funzioni}{11}{section.1.10}%
-\contentsline {subsection}{\numberline {1.10.1}Criteri di convergenza}{11}{subsection.1.10.1}%
-\contentsline {subsubsection}{\numberline {1.10.1.1}Convergenza Puntuale}{11}{subsubsection.1.10.1.1}%
-\contentsline {subsubsection}{\numberline {1.10.1.2}Convergenza Uniforme}{11}{subsubsection.1.10.1.2}%
-\contentsline {subsubsection}{\numberline {1.10.1.3}Esempi}{11}{subsubsection.1.10.1.3}%
-\contentsline {subsection}{\numberline {1.10.2}Teoremi sulle successioni}{13}{subsection.1.10.2}%
-\contentsline {subsubsection}{\numberline {1.10.2.1}Primo Teorema}{13}{subsubsection.1.10.2.1}%
-\contentsline {subsubsection}{\numberline {1.10.2.2}Secondo Teorema (Scambio Limite e Integrale)}{14}{subsubsection.1.10.2.2}%
-\contentsline {subsubsection}{\numberline {1.10.2.3}Terzo Teorema (Scambio Derivata e Limite)}{14}{subsubsection.1.10.2.3}%
-\contentsline {subsection}{\numberline {1.10.3}Completezza di $C^1([a,b])$}{16}{subsection.1.10.3}%
-\contentsline {chapter}{\numberline {2}Curve ed integrali curvilinei}{17}{chapter.2}%
-\contentsline {section}{\numberline {2.1}Curve}{17}{section.2.1}%
-\contentsline {subsection}{\numberline {2.1.1}Curve regolari}{17}{subsection.2.1.1}%
-\contentsline {subsubsection}{\numberline {2.1.1.1}Esempi di curve regolari a tratti}{17}{subsubsection.2.1.1.1}%
-\contentsline {subsection}{\numberline {2.1.2}Curve semplici}{18}{subsection.2.1.2}%
-\contentsline {subsection}{\numberline {2.1.3}Curve equivalenti}{18}{subsection.2.1.3}%
-\contentsline {subsection}{\numberline {2.1.4}Lunghezza di una curva}{18}{subsection.2.1.4}%
-\contentsline {subsubsection}{\numberline {2.1.4.1}Esempio: Elica Cilindrica}{18}{subsubsection.2.1.4.1}%
-\contentsline {subsubsection}{\numberline {2.1.4.2}Forma cartesiana}{19}{subsubsection.2.1.4.2}%
-\contentsline {subsubsection}{\numberline {2.1.4.3}Lunghezze di curve equivalenti}{19}{subsubsection.2.1.4.3}%
-\contentsline {subsection}{\numberline {2.1.5}Ascissa curvilinea}{20}{subsection.2.1.5}%
-\contentsline {subsection}{\numberline {2.1.6}Curve in forma polare}{20}{subsection.2.1.6}%
-\contentsline {subsection}{\numberline {2.1.7}Esempi di curve}{21}{subsection.2.1.7}%
-\contentsline {subsubsection}{\numberline {2.1.7.1}Cicloide}{21}{subsubsection.2.1.7.1}%
-\contentsline {subsubsection}{\numberline {2.1.7.2}Ellittica}{21}{subsubsection.2.1.7.2}%
-\contentsline {subsubsection}{\numberline {2.1.7.3}Cardioide (curva in forma polare)}{22}{subsubsection.2.1.7.3}%
-\contentsline {subsubsection}{\numberline {2.1.7.4}Spirale logaritmica}{22}{subsubsection.2.1.7.4}%
-\contentsline {subsubsection}{\numberline {2.1.7.5}Spirale di Archimede}{22}{subsubsection.2.1.7.5}%
-\contentsline {section}{\numberline {2.2}Integrali curvilinei}{23}{section.2.2}%
-\contentsline {subsection}{\numberline {2.2.1}Integrali curvilinei di I tipo (o di funzione)}{23}{subsection.2.2.1}%
-\contentsline {subsection}{\numberline {2.2.2}Esempi di I.C. di Io tipo}{24}{subsection.2.2.2}%
-\contentsline {subsection}{\numberline {2.2.3}Baricento (o centro di massa) di una curva}{24}{subsection.2.2.3}%
-\contentsline {subsection}{\numberline {2.2.4}Integrali curvilinei di II tipo (o di campo vettoriale)}{25}{subsection.2.2.4}%
-\contentsline {subsubsection}{\numberline {2.2.4.1}Esempi di Integrali curvilinei di II tipo}{25}{subsubsection.2.2.4.1}%
-\contentsline {chapter}{\numberline {3}Funzioni in $\mathbb {R}^n$}{27}{chapter.3}%
-\contentsline {section}{\numberline {3.1}Limiti di funzioni}{27}{section.3.1}%
-\contentsline {subsection}{\numberline {3.1.1}Limiti in $\mathbb {R}$}{27}{subsection.3.1.1}%
-\contentsline {section}{\numberline {3.2}Funzioni continue in $\mathbb {R}^n$}{27}{section.3.2}%
-\contentsline {subsection}{\numberline {3.2.1}Connessione}{27}{subsection.3.2.1}%
-\contentsline {subsection}{\numberline {3.2.2}Teoremi sulle funzioni continue}{28}{subsection.3.2.2}%
-\contentsline {section}{\numberline {3.3}Funzioni in $\mathbb {R}^2$}{28}{section.3.3}%
-\contentsline {subsubsection}{\numberline {3.3.0.1}Esempi di calcolo dell'insieme di definizione}{28}{subsubsection.3.3.0.1}%
-\contentsline {subsubsection}{\numberline {3.3.0.2}Funzioni radiali}{28}{subsubsection.3.3.0.2}%
-\contentsline {subsection}{\numberline {3.3.1}Calcolo dei limiti}{29}{subsection.3.3.1}%
-\contentsline {subsubsection}{\numberline {3.3.1.1}Calcolo dei limiti in forma polare}{30}{subsubsection.3.3.1.1}%
-\contentsline {subsubsection}{\numberline {3.3.1.2}Esempi di calcolo di limiti}{31}{subsubsection.3.3.1.2}%
-\contentsline {subsection}{\numberline {3.3.2}Funzioni derivabili}{33}{subsection.3.3.2}%
-\contentsline {subsubsection}{\numberline {3.3.2.1}Derivate Parziali e derivabilità}{33}{subsubsection.3.3.2.1}%
-\contentsline {subsubsection}{\numberline {3.3.2.2}Derivate direzionali}{34}{subsubsection.3.3.2.2}%
-\contentsline {subsection}{\numberline {3.3.3}Differenzialibità}{35}{subsection.3.3.3}%
-\contentsline {subsubsection}{\numberline {3.3.3.1}Teoremi sulle funzioni differenziabili}{35}{subsubsection.3.3.3.1}%
-\contentsline {subsubsection}{\numberline {3.3.3.2}Piani tangenti in $\mathbb {R}^3$}{36}{subsubsection.3.3.3.2}%
-\contentsline {subsubsection}{\numberline {3.3.3.3}Esempi sulla differenziabilità}{37}{subsubsection.3.3.3.3}%
-\contentsline {subsubsection}{\numberline {3.3.3.4}Teorema del Differenziale Totale}{39}{subsubsection.3.3.3.4}%
-\contentsline {subsection}{\numberline {3.3.4}Esercizio da esame}{40}{subsection.3.3.4}%
-\contentsline {section}{\numberline {3.4}Proposizione sugli insiemi}{42}{section.3.4}%
-\contentsline {section}{\numberline {3.5}Funzioni in $\mathbb {R}^n$}{42}{section.3.5}%
-\contentsline {subsection}{\numberline {3.5.1}Derivazione di funzioni composte in $\mathbb {R}^n$}{42}{subsection.3.5.1}%
-\contentsline {subsubsection}{\numberline {3.5.1.1}Esempio}{43}{subsubsection.3.5.1.1}%
-\contentsline {subsection}{\numberline {3.5.2}Funzioni composte e curve di livello}{43}{subsection.3.5.2}%
-\contentsline {subsection}{\numberline {3.5.3}Teorema di Lagrange (o del valor medio) in $\mathbb {R}^n$}{43}{subsection.3.5.3}%
-\contentsline {subsection}{\numberline {3.5.4}Teorema delle funzioni costanti}{44}{subsection.3.5.4}%
-\contentsline {subsubsection}{\numberline {3.5.4.1}Esempio}{44}{subsubsection.3.5.4.1}%
-\contentsline {subsection}{\numberline {3.5.5}Derivate successive}{45}{subsection.3.5.5}%
-\contentsline {subsection}{\numberline {3.5.6}Teorema di Schwartz}{45}{subsection.3.5.6}%
-\contentsline {subsection}{\numberline {3.5.7}Funzioni vettoriali}{46}{subsection.3.5.7}%
-\contentsline {subsubsection}{\numberline {3.5.7.1}Derivazione di funzioni composte vettoriali}{46}{subsubsection.3.5.7.1}%
-\contentsline {subsection}{\numberline {3.5.8}Formula di Taylor in $\mathbb {R}^n$}{47}{subsection.3.5.8}%
-\contentsline {subsubsection}{\numberline {3.5.8.1}Approssimazione al I ordine con resto di Lagrange al II ordine}{48}{subsubsection.3.5.8.1}%
-\contentsline {subsubsection}{\numberline {3.5.8.2}Approssimazione al II ordine con resto di Peano}{49}{subsubsection.3.5.8.2}%
-\contentsline {subsubsection}{\numberline {3.5.8.3}Esempio di PdT del 1o ordine}{50}{subsubsection.3.5.8.3}%
-\contentsline {subsection}{\numberline {3.5.9}Punti critici per funzioni a più variabili}{51}{subsection.3.5.9}%
-\contentsline {subsubsection}{\numberline {3.5.9.1}Teorema di Fermat per punti critici interni}{51}{subsubsection.3.5.9.1}%
-\contentsline {subsubsection}{\numberline {3.5.9.2}Forme quadratiche}{52}{subsubsection.3.5.9.2}%
-\contentsline {subsection}{\numberline {3.5.10}Classificazione dei punti critici interni}{54}{subsection.3.5.10}%
-\contentsline {subsection}{\numberline {3.5.11}Funzioni convesse}{56}{subsection.3.5.11}%
-\contentsline {subsection}{\numberline {3.5.12}Ricerca dei punti critici}{57}{subsection.3.5.12}%
-\contentsline {subsection}{\numberline {3.5.13}Punti critici di funzioni coercitive}{58}{subsection.3.5.13}%
-\contentsline {section}{\numberline {3.6}Funzioni implicite}{60}{section.3.6}%
-\contentsline {subsection}{\numberline {3.6.1}Th. di Dini per funzioni scalari ad una variabile}{61}{subsection.3.6.1}%
-\contentsline {subsection}{\numberline {3.6.2}Esempi di esercizi}{64}{subsection.3.6.2}%
-\contentsline {subsection}{\numberline {3.6.3}Teorema di Dini per funzioni scalari a più variabili}{66}{subsection.3.6.3}%
-\contentsline {subsection}{\numberline {3.6.4}Teorema di Dini per sistemi di funzioni}{67}{subsection.3.6.4}%
-\contentsline {subsection}{\numberline {3.6.5}Teorema di Dini nel caso generale}{68}{subsection.3.6.5}%
-\contentsline {subsection}{\numberline {3.6.6}Invertibilità Locale}{68}{subsection.3.6.6}%
-\contentsline {section}{\numberline {3.7}Punti di massimo e minimo vincolati}{69}{section.3.7}%
-\contentsline {subsection}{\numberline {3.7.1}Metodo dei Moltiplicatori di Lagrange in $\mathbb {R}^2$}{70}{subsection.3.7.1}%
-\contentsline {subsection}{\numberline {3.7.2}Esempi}{72}{subsection.3.7.2}%
-\contentsline {subsection}{\numberline {3.7.3}Metodo dei Moltiplicatori di Lagrange in $\mathbb {R}^3$}{74}{subsection.3.7.3}%
-\contentsline {subsection}{\numberline {3.7.4}Interpretazione geometrica dei moltiplicatori di Lagrange}{77}{subsection.3.7.4}%
-\contentsline {subsection}{\numberline {3.7.5}Oss. sui punti critici}{78}{subsection.3.7.5}%
-\contentsline {subsection}{\numberline {3.7.6}Metodo dei Moltiplicatori di Lagrange nel caso generale}{79}{subsection.3.7.6}%
-\contentsline {chapter}{\numberline {4}Campi conservativi e irrotazionali}{83}{chapter.4}%
-\contentsline {section}{\numberline {4.1}Richiamo sui campi vettoriali}{83}{section.4.1}%
-\contentsline {section}{\numberline {4.2}Forme lineari}{83}{section.4.2}%
-\contentsline {section}{\numberline {4.3}Campi conservativi}{85}{section.4.3}%
-\contentsline {subsection}{\numberline {4.3.1}Caratterizzazione dei campi conservativi}{85}{subsection.4.3.1}%
-\contentsline {section}{\numberline {4.4}Domini semplicemente connessi}{88}{section.4.4}%
-\contentsline {section}{\numberline {4.5}Lemma di Poincarré}{89}{section.4.5}%
-\contentsline {chapter}{\numberline {5}Integrali}{91}{chapter.5}%
-\contentsline {section}{\numberline {5.1}{Integrali a più variabili}}{91}{section.5.1}%
-\contentsline {subsection}{\numberline {5.1.1}Misura di Peano-Jordan e integrabilità secondo Riemann}{91}{subsection.5.1.1}%
-\contentsline {subsection}{\numberline {5.1.2}Misura di Lebesgue}{91}{subsection.5.1.2}%
-\contentsline {subsubsection}{\numberline {5.1.2.1}Insiemi misurabili}{91}{subsubsection.5.1.2.1}%
-\contentsline {subsubsection}{\numberline {5.1.2.2}Insiemi misurabili secondo Lebesgue}{93}{subsubsection.5.1.2.2}%
-\contentsline {subsubsection}{\numberline {5.1.2.3}Teoremi sugli insiemi misurabili}{94}{subsubsection.5.1.2.3}%
-\contentsline {subsubsection}{\numberline {5.1.2.4}Misurabilità di $\mathbb {Q}\cap [0,1]$ secondo Lebesgue}{94}{subsubsection.5.1.2.4}%
-\contentsline {subsubsection}{\numberline {5.1.2.5}Insieme di Cantor}{94}{subsubsection.5.1.2.5}%
-\contentsline {subsubsection}{\numberline {5.1.2.6}Misurabilità di insiemi chiusi e aperti secondo Lebesgue}{94}{subsubsection.5.1.2.6}%
-\contentsline {subsubsection}{\numberline {5.1.2.7}Misura di un prodotto tra spazi}{95}{subsubsection.5.1.2.7}%
-\contentsline {section}{\numberline {5.2}Integrali di Lebesgue}{95}{section.5.2}%
-\contentsline {subsection}{\numberline {5.2.1}Proprietà degli integrali di Lebesgue}{96}{subsection.5.2.1}%
-\contentsline {subsection}{\numberline {5.2.2}Funzioni misurabili}{96}{subsection.5.2.2}%
-\contentsline {subsection}{\numberline {5.2.3}"Quasi Ovunque"}{97}{subsection.5.2.3}%
-\contentsline {subsection}{\numberline {5.2.4}Criterio del confronto per la sommabilità}{98}{subsection.5.2.4}%
-\contentsline {subsection}{\numberline {5.2.5}Criterio del confronto asintotico}{98}{subsection.5.2.5}%
-\contentsline {subsection}{\numberline {5.2.6}Teorema di passaggio al limite}{98}{subsection.5.2.6}%
-\contentsline {subsection}{\numberline {5.2.7}Teorema di convergenza di Poeno-Segre}{99}{subsection.5.2.7}%
-\contentsline {subsection}{\numberline {5.2.8}Scambio tra somma e integrale per serie a termini non negativi}{99}{subsection.5.2.8}%
-\contentsline {subsection}{\numberline {5.2.9}Teorema di Lebesgue per la convergenza dominata}{100}{subsection.5.2.9}%
-\contentsline {subsection}{\numberline {5.2.10}Spazi di Lebesgue $L^p$}{101}{subsection.5.2.10}%
-\contentsline {subsection}{\numberline {5.2.11}Derivazione sotto segno di integrale}{101}{subsection.5.2.11}%
-\contentsline {subsection}{\numberline {5.2.12}Misura di insiemi in $\mathbb {R}^2$}{104}{subsection.5.2.12}%
-\contentsline {subsection}{\numberline {5.2.13}Teorema di Fubini}{106}{subsection.5.2.13}%
-\contentsline {subsection}{\numberline {5.2.14}Centro di Massa di una superficie}{108}{subsection.5.2.14}%
-\contentsline {subsection}{\numberline {5.2.15}Calcolo dei volumi}{109}{subsection.5.2.15}%
-\contentsline {subsection}{\numberline {5.2.16}Cambio di variabili (MANCANTE)}{109}{subsection.5.2.16}%
-\contentsline {section}{\numberline {5.3}Integrali impropri di Riemann}{110}{section.5.3}%
-\contentsline {subsection}{\numberline {5.3.1}Integrali impropri di Io tipo}{110}{subsection.5.3.1}%
-\contentsline {subsection}{\numberline {5.3.2}Integrali impropri di IIo tipo}{110}{subsection.5.3.2}%
-\contentsline {subsection}{\numberline {5.3.3}Criterio del confronto per integrali jmpropri}{111}{subsection.5.3.3}%
+\contentsline {section}{\numberline {1.6}Tipologie di punti}{5}{section.1.6}%
+\contentsline {section}{\numberline {1.7}Successioni}{6}{section.1.7}%
+\contentsline {subsection}{\numberline {1.7.1}Successioni convergenti}{6}{subsection.1.7.1}%
+\contentsline {subsection}{\numberline {1.7.2}Successioni di Cauchy}{6}{subsection.1.7.2}%
+\contentsline {section}{\numberline {1.8}Spazi}{7}{section.1.8}%
+\contentsline {subsection}{\numberline {1.8.1}Spazi compatti}{7}{subsection.1.8.1}%
+\contentsline {subsection}{\numberline {1.8.2}Spazi completi}{7}{subsection.1.8.2}%
+\contentsline {subsubsection}{\numberline {1.8.2.1}Spazi completi (Ex.)}{7}{subsubsection.1.8.2.1}%
+\contentsline {subsubsection}{\numberline {1.8.2.2}Spazi \underline {non} completi (Ex.)}{7}{subsubsection.1.8.2.2}%
+\contentsline {subsubsection}{\numberline {1.8.2.3}$(C^0([a,b]), ||\cdot ||_\infty )$ (Ex.)}{7}{subsubsection.1.8.2.3}%
+\contentsline {subsection}{\numberline {1.8.3}Spazi di Banach}{8}{subsection.1.8.3}%
+\contentsline {section}{\numberline {1.9}Funzioni Continue}{9}{section.1.9}%
+\contentsline {subsection}{\numberline {1.9.1}Lipschitzianità di una funzione}{9}{subsection.1.9.1}%
+\contentsline {subsection}{\numberline {1.9.2}Contrazioni}{10}{subsection.1.9.2}%
+\contentsline {subsubsection}{\numberline {1.9.2.1}Esempio di contrazione}{10}{subsubsection.1.9.2.1}%
+\contentsline {subsubsection}{\numberline {1.9.2.2}Teorema di Banach-Cacciopoli (Principio di contrazione)}{10}{subsubsection.1.9.2.2}%
+\contentsline {section}{\numberline {1.10}Successioni di funzioni}{12}{section.1.10}%
+\contentsline {subsection}{\numberline {1.10.1}Criteri di convergenza}{12}{subsection.1.10.1}%
+\contentsline {subsubsection}{\numberline {1.10.1.1}Convergenza Puntuale}{12}{subsubsection.1.10.1.1}%
+\contentsline {subsubsection}{\numberline {1.10.1.2}Convergenza Uniforme}{12}{subsubsection.1.10.1.2}%
+\contentsline {subsubsection}{\numberline {1.10.1.3}Esempi}{12}{subsubsection.1.10.1.3}%
+\contentsline {subsection}{\numberline {1.10.2}Teoremi sulle successioni}{15}{subsection.1.10.2}%
+\contentsline {subsubsection}{\numberline {1.10.2.1}Primo Teorema}{15}{subsubsection.1.10.2.1}%
+\contentsline {subsubsection}{\numberline {1.10.2.2}Secondo Teorema (Scambio Limite e Integrale)}{15}{subsubsection.1.10.2.2}%
+\contentsline {subsubsection}{\numberline {1.10.2.3}Terzo Teorema (Scambio Derivata e Limite)}{16}{subsubsection.1.10.2.3}%
+\contentsline {subsection}{\numberline {1.10.3}Completezza di $C^1([a,b])$}{18}{subsection.1.10.3}%
+\contentsline {chapter}{\numberline {2}Curve ed integrali curvilinei}{21}{chapter.2}%
+\contentsline {section}{\numberline {2.1}Curve}{21}{section.2.1}%
+\contentsline {subsection}{\numberline {2.1.1}Curve regolari}{21}{subsection.2.1.1}%
+\contentsline {subsubsection}{\numberline {2.1.1.1}Esempi di curve regolari a tratti}{22}{subsubsection.2.1.1.1}%
+\contentsline {subsection}{\numberline {2.1.2}Curve semplici}{22}{subsection.2.1.2}%
+\contentsline {subsection}{\numberline {2.1.3}Curve equivalenti}{22}{subsection.2.1.3}%
+\contentsline {subsection}{\numberline {2.1.4}Lunghezza di una curva}{22}{subsection.2.1.4}%
+\contentsline {subsubsection}{\numberline {2.1.4.1}Esempio: Elica Cilindrica}{23}{subsubsection.2.1.4.1}%
+\contentsline {subsubsection}{\numberline {2.1.4.2}Forma cartesiana}{23}{subsubsection.2.1.4.2}%
+\contentsline {subsubsection}{\numberline {2.1.4.3}Lunghezze di curve equivalenti}{24}{subsubsection.2.1.4.3}%
+\contentsline {subsection}{\numberline {2.1.5}Ascissa curvilinea}{24}{subsection.2.1.5}%
+\contentsline {subsection}{\numberline {2.1.6}Curve in forma polare}{25}{subsection.2.1.6}%
+\contentsline {subsection}{\numberline {2.1.7}Esempi di curve}{26}{subsection.2.1.7}%
+\contentsline {subsubsection}{\numberline {2.1.7.1}Cicloide}{26}{subsubsection.2.1.7.1}%
+\contentsline {subsubsection}{\numberline {2.1.7.2}Ellittica}{26}{subsubsection.2.1.7.2}%
+\contentsline {subsubsection}{\numberline {2.1.7.3}Cardioide (curva in forma polare)}{27}{subsubsection.2.1.7.3}%
+\contentsline {subsubsection}{\numberline {2.1.7.4}Spirale logaritmica}{27}{subsubsection.2.1.7.4}%
+\contentsline {subsubsection}{\numberline {2.1.7.5}Spirale di Archimede}{27}{subsubsection.2.1.7.5}%
+\contentsline {section}{\numberline {2.2}Integrali curvilinei}{28}{section.2.2}%
+\contentsline {subsection}{\numberline {2.2.1}Integrali curvilinei di I tipo (o di funzione)}{28}{subsection.2.2.1}%
+\contentsline {subsection}{\numberline {2.2.2}Esempi di I.C. di Io tipo}{29}{subsection.2.2.2}%
+\contentsline {subsection}{\numberline {2.2.3}Baricento (o centro di massa) di una curva}{30}{subsection.2.2.3}%
+\contentsline {subsection}{\numberline {2.2.4}Integrali curvilinei di II tipo (o di campo vettoriale)}{31}{subsection.2.2.4}%
+\contentsline {subsubsection}{\numberline {2.2.4.1}Esempi di Integrali curvilinei di II tipo}{31}{subsubsection.2.2.4.1}%
+\contentsline {chapter}{\numberline {3}Funzioni in $\mathbb {R}^n$}{33}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Limiti di funzioni}{33}{section.3.1}%
+\contentsline {subsection}{\numberline {3.1.1}Limiti in $\mathbb {R}$}{33}{subsection.3.1.1}%
+\contentsline {section}{\numberline {3.2}Funzioni continue in $\mathbb {R}^n$}{33}{section.3.2}%
+\contentsline {subsection}{\numberline {3.2.1}Connessione}{34}{subsection.3.2.1}%
+\contentsline {subsection}{\numberline {3.2.2}Teoremi sulle funzioni continue}{34}{subsection.3.2.2}%
+\contentsline {section}{\numberline {3.3}Funzioni in $\mathbb {R}^2$}{34}{section.3.3}%
+\contentsline {subsubsection}{\numberline {3.3.0.1}Esempi di calcolo dell'insieme di definizione}{34}{subsubsection.3.3.0.1}%
+\contentsline {subsubsection}{\numberline {3.3.0.2}Funzioni radiali}{34}{subsubsection.3.3.0.2}%
+\contentsline {subsection}{\numberline {3.3.1}Calcolo dei limiti}{35}{subsection.3.3.1}%
+\contentsline {subsubsection}{\numberline {3.3.1.1}Calcolo dei limiti in forma polare}{37}{subsubsection.3.3.1.1}%
+\contentsline {subsubsection}{\numberline {3.3.1.2}Esempi di calcolo di limiti}{37}{subsubsection.3.3.1.2}%
+\contentsline {subsection}{\numberline {3.3.2}Funzioni derivabili}{40}{subsection.3.3.2}%
+\contentsline {subsubsection}{\numberline {3.3.2.1}Derivate Parziali e derivabilità}{40}{subsubsection.3.3.2.1}%
+\contentsline {subsubsection}{\numberline {3.3.2.2}Derivate direzionali}{41}{subsubsection.3.3.2.2}%
+\contentsline {subsection}{\numberline {3.3.3}Differenzialibità}{42}{subsection.3.3.3}%
+\contentsline {subsubsection}{\numberline {3.3.3.1}Teoremi sulle funzioni differenziabili}{42}{subsubsection.3.3.3.1}%
+\contentsline {subsubsection}{\numberline {3.3.3.2}Piani tangenti in $\mathbb {R}^3$}{44}{subsubsection.3.3.3.2}%
+\contentsline {subsubsection}{\numberline {3.3.3.3}Esempi sulla differenziabilità}{45}{subsubsection.3.3.3.3}%
+\contentsline {subsubsection}{\numberline {3.3.3.4}Teorema del Differenziale Totale}{47}{subsubsection.3.3.3.4}%
+\contentsline {subsection}{\numberline {3.3.4}Esercizio da esame}{49}{subsection.3.3.4}%
+\contentsline {section}{\numberline {3.4}Proposizione sugli insiemi}{51}{section.3.4}%
+\contentsline {section}{\numberline {3.5}Funzioni in $\mathbb {R}^n$}{51}{section.3.5}%
+\contentsline {subsection}{\numberline {3.5.1}Derivazione di funzioni composte in $\mathbb {R}^n$}{51}{subsection.3.5.1}%
+\contentsline {subsubsection}{\numberline {3.5.1.1}Esempio}{52}{subsubsection.3.5.1.1}%
+\contentsline {subsection}{\numberline {3.5.2}Funzioni composte e curve di livello}{52}{subsection.3.5.2}%
+\contentsline {subsection}{\numberline {3.5.3}Teorema di Lagrange (o del valor medio) in $\mathbb {R}^n$}{53}{subsection.3.5.3}%
+\contentsline {subsection}{\numberline {3.5.4}Teorema delle funzioni costanti}{53}{subsection.3.5.4}%
+\contentsline {subsubsection}{\numberline {3.5.4.1}Esempio}{54}{subsubsection.3.5.4.1}%
+\contentsline {subsection}{\numberline {3.5.5}Derivate successive}{54}{subsection.3.5.5}%
+\contentsline {subsection}{\numberline {3.5.6}Teorema di Schwartz}{55}{subsection.3.5.6}%
+\contentsline {subsection}{\numberline {3.5.7}Funzioni vettoriali}{56}{subsection.3.5.7}%
+\contentsline {subsubsection}{\numberline {3.5.7.1}Derivazione di funzioni composte vettoriali}{57}{subsubsection.3.5.7.1}%
+\contentsline {subsection}{\numberline {3.5.8}Formula di Taylor in $\mathbb {R}^n$}{57}{subsection.3.5.8}%
+\contentsline {subsubsection}{\numberline {3.5.8.1}Approssimazione al I ordine con resto di Lagrange al II ordine}{59}{subsubsection.3.5.8.1}%
+\contentsline {subsubsection}{\numberline {3.5.8.2}Approssimazione al II ordine con resto di Peano}{60}{subsubsection.3.5.8.2}%
+\contentsline {subsubsection}{\numberline {3.5.8.3}Esempio di PdT del 1o ordine}{62}{subsubsection.3.5.8.3}%
+\contentsline {subsection}{\numberline {3.5.9}Punti critici per funzioni a più variabili}{63}{subsection.3.5.9}%
+\contentsline {subsubsection}{\numberline {3.5.9.1}Teorema di Fermat per punti critici interni}{63}{subsubsection.3.5.9.1}%
+\contentsline {subsubsection}{\numberline {3.5.9.2}Forme quadratiche}{64}{subsubsection.3.5.9.2}%
+\contentsline {subsection}{\numberline {3.5.10}Classificazione dei punti critici interni}{66}{subsection.3.5.10}%
+\contentsline {subsection}{\numberline {3.5.11}Funzioni convesse}{69}{subsection.3.5.11}%
+\contentsline {subsection}{\numberline {3.5.12}Ricerca dei punti critici}{71}{subsection.3.5.12}%
+\contentsline {subsection}{\numberline {3.5.13}Punti critici di funzioni coercitive}{72}{subsection.3.5.13}%
+\contentsline {section}{\numberline {3.6}Funzioni implicite}{74}{section.3.6}%
+\contentsline {subsection}{\numberline {3.6.1}Th. di Dini per funzioni scalari ad una variabile}{75}{subsection.3.6.1}%
+\contentsline {subsection}{\numberline {3.6.2}Esempi di esercizi}{79}{subsection.3.6.2}%
+\contentsline {subsection}{\numberline {3.6.3}Teorema di Dini per funzioni scalari a più variabili}{82}{subsection.3.6.3}%
+\contentsline {subsection}{\numberline {3.6.4}Teorema di Dini per sistemi di funzioni}{83}{subsection.3.6.4}%
+\contentsline {subsection}{\numberline {3.6.5}Teorema di Dini nel caso generale}{84}{subsection.3.6.5}%
+\contentsline {subsection}{\numberline {3.6.6}Invertibilità Locale}{84}{subsection.3.6.6}%
+\contentsline {section}{\numberline {3.7}Punti di massimo e minimo vincolati}{86}{section.3.7}%
+\contentsline {subsection}{\numberline {3.7.1}Metodo dei Moltiplicatori di Lagrange in $\mathbb {R}^2$}{87}{subsection.3.7.1}%
+\contentsline {subsection}{\numberline {3.7.2}Esempi}{90}{subsection.3.7.2}%
+\contentsline {subsection}{\numberline {3.7.3}Metodo dei Moltiplicatori di Lagrange in $\mathbb {R}^3$}{92}{subsection.3.7.3}%
+\contentsline {subsection}{\numberline {3.7.4}Interpretazione geometrica dei moltiplicatori di Lagrange}{97}{subsection.3.7.4}%
+\contentsline {subsection}{\numberline {3.7.5}Oss. sui punti critici}{98}{subsection.3.7.5}%
+\contentsline {subsection}{\numberline {3.7.6}Metodo dei Moltiplicatori di Lagrange nel caso generale}{99}{subsection.3.7.6}%
+\contentsline {chapter}{\numberline {4}Campi conservativi e irrotazionali}{103}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Richiamo sui campi vettoriali}{103}{section.4.1}%
+\contentsline {section}{\numberline {4.2}Forme lineari}{103}{section.4.2}%
+\contentsline {section}{\numberline {4.3}Campi conservativi}{105}{section.4.3}%
+\contentsline {subsection}{\numberline {4.3.1}Caratterizzazione dei campi conservativi}{106}{subsection.4.3.1}%
+\contentsline {section}{\numberline {4.4}Domini semplicemente connessi}{109}{section.4.4}%
+\contentsline {section}{\numberline {4.5}Lemma di Poincarré}{110}{section.4.5}%
+\contentsline {chapter}{\numberline {5}Integrali}{111}{chapter.5}%
+\contentsline {section}{\numberline {5.1}{Integrali a più variabili}}{111}{section.5.1}%
+\contentsline {subsection}{\numberline {5.1.1}Misura di Peano-Jordan e integrabilità secondo Riemann}{111}{subsection.5.1.1}%
+\contentsline {subsection}{\numberline {5.1.2}Misura di Lebesgue}{111}{subsection.5.1.2}%
+\contentsline {subsubsection}{\numberline {5.1.2.1}Insiemi misurabili}{111}{subsubsection.5.1.2.1}%
+\contentsline {subsubsection}{\numberline {5.1.2.2}Insiemi misurabili secondo Lebesgue}{114}{subsubsection.5.1.2.2}%
+\contentsline {subsubsection}{\numberline {5.1.2.3}Teoremi sugli insiemi misurabili}{115}{subsubsection.5.1.2.3}%
+\contentsline {subsubsection}{\numberline {5.1.2.4}Misurabilità di $\mathbb {Q}\cap [0,1]$ secondo Lebesgue}{115}{subsubsection.5.1.2.4}%
+\contentsline {subsubsection}{\numberline {5.1.2.5}Insieme di Cantor}{115}{subsubsection.5.1.2.5}%
+\contentsline {subsubsection}{\numberline {5.1.2.6}Misurabilità di insiemi chiusi e aperti secondo Lebesgue}{116}{subsubsection.5.1.2.6}%
+\contentsline {subsubsection}{\numberline {5.1.2.7}Misura di un prodotto tra spazi}{116}{subsubsection.5.1.2.7}%
+\contentsline {section}{\numberline {5.2}Integrali di Lebesgue}{116}{section.5.2}%
+\contentsline {subsection}{\numberline {5.2.1}Proprietà degli integrali di Lebesgue}{118}{subsection.5.2.1}%
+\contentsline {subsection}{\numberline {5.2.2}Funzioni misurabili}{118}{subsection.5.2.2}%
+\contentsline {subsection}{\numberline {5.2.3}"Quasi Ovunque"}{120}{subsection.5.2.3}%
+\contentsline {subsection}{\numberline {5.2.4}Criterio del confronto per la sommabilità}{121}{subsection.5.2.4}%
+\contentsline {subsection}{\numberline {5.2.5}Criterio del confronto asintotico}{121}{subsection.5.2.5}%
+\contentsline {subsection}{\numberline {5.2.6}Teorema di passaggio al limite}{122}{subsection.5.2.6}%
+\contentsline {subsection}{\numberline {5.2.7}Teorema di convergenza di Poeno-Segre}{122}{subsection.5.2.7}%
+\contentsline {subsection}{\numberline {5.2.8}Scambio tra somma e integrale per serie a termini non negativi}{123}{subsection.5.2.8}%
+\contentsline {subsection}{\numberline {5.2.9}Teorema di Lebesgue per la convergenza dominata}{124}{subsection.5.2.9}%
+\contentsline {subsection}{\numberline {5.2.10}Spazi di Lebesgue $L^p$}{125}{subsection.5.2.10}%
+\contentsline {subsection}{\numberline {5.2.11}Derivazione sotto segno di integrale}{125}{subsection.5.2.11}%
+\contentsline {subsection}{\numberline {5.2.12}Misura di insiemi in $\mathbb {R}^2$}{129}{subsection.5.2.12}%
+\contentsline {subsection}{\numberline {5.2.13}Teorema di Fubini}{132}{subsection.5.2.13}%
+\contentsline {subsection}{\numberline {5.2.14}Centro di Massa di una superficie}{134}{subsection.5.2.14}%
+\contentsline {subsection}{\numberline {5.2.15}Calcolo dei volumi}{135}{subsection.5.2.15}%
+\contentsline {subsection}{\numberline {5.2.16}Cambio di variabili (MANCANTE)}{136}{subsection.5.2.16}%
+\contentsline {section}{\numberline {5.3}Integrali impropri di Riemann}{137}{section.5.3}%
+\contentsline {subsection}{\numberline {5.3.1}Integrali impropri di Io tipo}{137}{subsection.5.3.1}%
+\contentsline {subsection}{\numberline {5.3.2}Integrali impropri di IIo tipo}{138}{subsection.5.3.2}%
+\contentsline {subsection}{\numberline {5.3.3}Criterio del confronto per integrali jmpropri}{138}{subsection.5.3.3}%

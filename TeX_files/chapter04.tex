@@ -69,8 +69,7 @@ Vediamo un paio di esempi.
 
 \begin{figure}[!htb]
 	\center{\includegraphics[width=\textwidth]
-		{images/esCV1.png}
-		\caption{\label{fig:my-label}}}
+		{images/esCV1.png}}
 \end{figure}
 
 \newpage
@@ -122,6 +121,8 @@ E quindi sostituendo nell'integrale del lavoro otteniamo, avendo definito $\vecP
 	\int_{\gamma} ds \braket{F|T} {}&= \int_{a}^{b} dt \sum_{i=1}^{3}F_i(x_1(t),x_2(t),x_3(t)) \cdot x'_i(t) = \continue &=\int_{a}^{b} dt \dertot{}{t}U(x_1(t) , x_2(t) , x_3(t)) = U(\vecP_f) - U(\vecP_i)
 \end{align}
 
+\newpage
+
 \subsection{Caratterizzazione dei campi conservativi}
 
 Sia un dominio $A\subset \R^3$ aperto e connesso, e sia un campo vettoriale $\vecF \in C^0(A)$. Avremo che le tre seguenti affermazioni sono equivalenti:
@@ -147,8 +148,6 @@ A sua volta la 2 implica la 3, dato che se due curve hanno gli stessi estremi si
 	& \oint_\gamma =0 \implies \int_{\gamma_1} - \int_{\gamma_2} = 0 \implies \int_{\gamma_1} = \int_{\gamma_2}
 \end{align}
 
-\newpage
-
 Infine la 3 implica la 1. Fissato $\vecP^0\in A$ e definita $\Gamma(\vecP) = \gamma_{\vecP^0 \rightarrow\vecP}\subset A$
 
 Dimostriamo come dato 
@@ -161,6 +160,8 @@ Ci chiediamo
 \begin{align}
 	\limit{h}{0} \frac{U(x+h,y,z) - U(x,y,z)}{h} \doubteq F_1
 \end{align}
+
+\newpage
 
 Iniziamo scomponendo $\Gamma(\vecP^h)$ nel seguente modo
 \begin{figure}[!htb]
@@ -228,8 +229,7 @@ La dimostrazione si appoggia al teorema di Schwartz sulle derivate miste. Infatt
 
 \begin{figure}[!htb]
 	\center{\includegraphics[width=\textwidth]
-		{images/cirr.png}
-		\caption{\label{fig:my-label}}}
+		{images/cirr.png}}
 \end{figure}
 
 \newpage

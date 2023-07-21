@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2023.5.31)  23 JUN 2023 13:31
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2023.5.31)  21 JUL 2023 12:49
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -387,58 +387,7 @@ LaTeX Warning: Label `fig:my-label' multiply defined.
 
 LaTeX Warning: Label `fig:my-label' multiply defined.
 
-
-LaTeX Warning: Label `fig:my-label' multiply defined.
-
-
-LaTeX Warning: Label `fig:my-label' multiply defined.
-
 ) (./TeX_files/chapter05.aux
-
-LaTeX Warning: Label `fig:my-label' multiply defined.
-
-
-LaTeX Warning: Label `fig:my-label' multiply defined.
-
-
-LaTeX Warning: Label `fig:my-label' multiply defined.
-
-
-LaTeX Warning: Label `fig:my-label' multiply defined.
-
-
-LaTeX Warning: Label `fig:my-label' multiply defined.
-
-
-LaTeX Warning: Label `fig:my-label' multiply defined.
-
-
-LaTeX Warning: Label `fig:my-label' multiply defined.
-
-
-LaTeX Warning: Label `fig:my-label' multiply defined.
-
-
-LaTeX Warning: Label `fig:my-label' multiply defined.
-
-
-LaTeX Warning: Label `fig:my-label' multiply defined.
-
-
-LaTeX Warning: Label `fig:my-label' multiply defined.
-
-
-LaTeX Warning: Label `fig:my-label' multiply defined.
-
-
-LaTeX Warning: Label `fig:my-label' multiply defined.
-
-
-LaTeX Warning: Label `fig:my-label' multiply defined.
-
-
-LaTeX Warning: Label `fig:my-label' multiply defined.
-
 
 LaTeX Warning: Label `fig:my-label' multiply defined.
 
@@ -474,16 +423,16 @@ LaTeX Font Info:    ... okay on input line 161.
 *geometry* detected driver: pdftex
 *geometry* verbose mode - [ preamble ] result:
 * driver: pdftex
-* paper: legalpaper
+* paper: a4paper
 * layout: <same size as paper>
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
 * modes: twoside 
-* h-part:(L,W,R)=(36.135pt, 542.02501pt, 36.135pt)
-* v-part:(T,H,B)=(36.135pt, 939.51001pt, 36.135pt)
-* \paperwidth=614.295pt
-* \paperheight=1011.78pt
-* \textwidth=542.02501pt
-* \textheight=939.51001pt
+* h-part:(L,W,R)=(36.135pt, 525.23788pt, 36.135pt)
+* v-part:(T,H,B)=(36.135pt, 772.77686pt, 36.135pt)
+* \paperwidth=597.50787pt
+* \paperheight=845.04684pt
+* \textwidth=525.23788pt
+* \textheight=772.77686pt
 * \oddsidemargin=-36.135pt
 * \evensidemargin=-36.135pt
 * \topmargin=-68.00879pt
@@ -566,7 +515,7 @@ pe jpg)
 <use images/genius_by_lunarisfuryaileron_d2qp8sd-fullview.jpg>
 Package pdftex.def Info: images/genius_by_lunarisfuryaileron_d2qp8sd-fullview.j
 pg  used on input line 175.
-(pdftex.def)             Requested size: 433.62166pt x 433.63805pt.
+(pdftex.def)             Requested size: 420.19191pt x 420.21207pt.
  [1
 
 
@@ -578,13 +527,11 @@ furyaileron_d2qp8sd-fullview.jpg>] [2
 LaTeX Font Info:    Trying to load font information for U+bbold on input line 6
 0.
 
-(/usr/share/texlive/texmf-dist/tex/latex/bbold/Ubbold.fd) [4])
+(/usr/share/texlive/texmf-dist/tex/latex/bbold/Ubbold.fd) [4] [5])
 \tf@toc=\write4
 \openout4 = `analisi_vettoriale.toc'.
 
- [5] [6
-
-]
+ [6]
 \openout2 = `./TeX_files/chapter01.aux'.
 
 
@@ -593,115 +540,127 @@ Chapter 1.
 [1
 
 
-] [2] [3] [4] [5]
+
+] [2] [3] [4] [5] [6]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 353.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\@@underline' on input line 353.
+(hyperref)                removing `math shift' on input line 350.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\hbox' on input line 353.
+(hyperref)                removing `\@@underline' on input line 350.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\mathsurround' on input line 353.
+(hyperref)                removing `\hbox' on input line 350.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\z@' on input line 353.
+(hyperref)                removing `\mathsurround' on input line 350.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 353.
+(hyperref)                removing `\z@' on input line 350.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 373.
+(hyperref)                removing `math shift' on input line 350.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `superscript' on input line 373.
+(hyperref)                removing `math shift' on input line 370.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\cdot' on input line 373.
+(hyperref)                removing `superscript' on input line 370.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `subscript' on input line 373.
+(hyperref)                removing `\cdot' on input line 370.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\infty' on input line 373.
+(hyperref)                removing `subscript' on input line 370.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 373.
-
-[6] [7] [8]
-
-LaTeX Warning: Command \d invalid in math mode on input line 571.
-
-
-LaTeX Warning: Command \d invalid in math mode on input line 571.
-
-[9] [10] [11] [12] [13] [14] [15]
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 935.
+(hyperref)                removing `\infty' on input line 370.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `superscript' on input line 935.
+(hyperref)                removing `math shift' on input line 370.
+
+[7] [8] [9]
+
+LaTeX Warning: Command \d invalid in math mode on input line 564.
+
+
+LaTeX Warning: Command \d invalid in math mode on input line 564.
+
+[10] [11]
+Overfull \hbox (12.8415pt too wide) in paragraph at lines 627--628
+[]\OT1/cmr/m/n/12 Si pu^^Ro an-che scri-vere $[][]\OMS/cmsy/m/n/12 j\OML/cmm/m/
+it/12 f[]\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 x\OT1/cmr/m/n/12 ) \OMS/cmsy/m/n/12 
+^^@ \OML/cmm/m/it/12 f\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 x\OT1/cmr/m/n/12 )\OMS/
+cmsy/m/n/12 j \OT1/cmr/m/n/12 = \OMS/cmsy/m/n/12 jj\OML/cmm/m/it/12 f[]\OT1/cmr
+/m/n/12 (\OML/cmm/m/it/12 x\OT1/cmr/m/n/12 ) \OMS/cmsy/m/n/12 ^^@ \OML/cmm/m/it
+/12 f\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 x\OT1/cmr/m/n/12 )\OMS/cmsy/m/n/12 jj[]$
+ \OT1/cmr/m/n/12 ma si perde l'informazione dell'intervallo. 
+ []
+
+[12] [13] [14] [15] [16] [17]
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 925.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 935.
+(hyperref)                removing `superscript' on input line 925.
 
-) [16]
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 925.
+
+[18]) [19]
 \openout2 = `./TeX_files/chapter02.aux'.
 
- (./TeX_files/chapter02.tex
-Chapter 2.
-[17
+ (./TeX_files/chapter02.tex [20
 
 
 
 
 ]
-<images/curva.png, id=1116, 694.595pt x 415.5525pt>
+Chapter 2.
+[21]
+<images/curva.png, id=1131, 694.595pt x 415.5525pt>
 File: images/curva.png Graphic file (type png)
 <use images/curva.png>
 Package pdftex.def Info: images/curva.png  used on input line 94.
-(pdftex.def)             Requested size: 271.0125pt x 162.1409pt.
- [18 <./images/curva.png>] [19]
-<images/coord_pol.png, id=1149, 264.99pt x 180.675pt>
+(pdftex.def)             Requested size: 262.61894pt x 157.11899pt.
+ [22 <./images/curva.png>] [23] [24]
+<images/coord_pol.png, id=1176, 264.99pt x 180.675pt>
 File: images/coord_pol.png Graphic file (type png)
 <use images/coord_pol.png>
-Package pdftex.def Info: images/coord_pol.png  used on input line 248.
-(pdftex.def)             Requested size: 271.0125pt x 184.7933pt.
- [20 <./images/coord_pol.png>] [21] [22]
-<images/int_curv.png, id=1202, 263.98625pt x 189.70876pt>
+Package pdftex.def Info: images/coord_pol.png  used on input line 246.
+(pdftex.def)             Requested size: 262.61894pt x 179.07004pt.
+ [25 <./images/coord_pol.png>] [26]
+[27]
+<images/int_curv.png, id=1223, 263.98625pt x 189.70876pt>
 File: images/int_curv.png Graphic file (type png)
 <use images/int_curv.png>
-Package pdftex.def Info: images/int_curv.png  used on input line 425.
-(pdftex.def)             Requested size: 271.0125pt x 194.76825pt.
-
-[23 <./images/int_curv.png>]
-<images/asteroide.png, id=1222, 513.92pt x 371.3875pt>
+Package pdftex.def Info: images/int_curv.png  used on input line 424.
+(pdftex.def)             Requested size: 262.61894pt x 188.73566pt.
+ [28 <./images/int_curv.png>] [29]
+<images/asteroide.png, id=1254, 513.92pt x 371.3875pt>
 File: images/asteroide.png Graphic file (type png)
 <use images/asteroide.png>
-Package pdftex.def Info: images/asteroide.png  used on input line 508.
-(pdftex.def)             Requested size: 216.80669pt x 156.67871pt.
- [24 <./images/asteroide.png>] [25]) [26]
+Package pdftex.def Info: images/asteroide.png  used on input line 510.
+(pdftex.def)             Requested size: 210.09193pt x 151.82784pt.
+ [30 <./images/asteroide.png>] [31])
+[32]
 \openout2 = `./TeX_files/chapter03.aux'.
 
-
-(./TeX_files/chapter03.tex
+ (./TeX_files/chapter03.tex
 Chapter 3.
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
@@ -735,7 +694,7 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `math shift' on input line 33.
 
-[27
+[33
 
 
 
@@ -757,7 +716,7 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 Package hyperref Warning: Difference (2) between bookmark levels is greater 
 (hyperref)                than one, level fixed on input line 91.
 
-[28] [29] [30] [31] [32] [33] [34] [35]
+[34] [35] [36] [37] [38] [39] [40] [41] [42] [43]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `math shift' on input line 622.
@@ -770,19 +729,7 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `math shift' on input line 622.
 
-[36] [37] [38] [39] [40] [41]
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 1003.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `superscript' on input line 1003.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 1003.
-
+[44] [45] [46] [47] [48] [49] [50]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `math shift' on input line 1005.
@@ -795,410 +742,418 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `math shift' on input line 1005.
 
-[42]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 1093.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `superscript' on input line 1093.
+(hyperref)                removing `math shift' on input line 1007.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 1093.
+(hyperref)                removing `superscript' on input line 1007.
 
-[43] [44] [45]
 
-LaTeX Font Warning: Command \scriptsize invalid in math mode on input line 1281
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 1007.
+
+[51]
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 1095.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `superscript' on input line 1095.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 1095.
+
+[52] [53] [54] [55]
+
+LaTeX Font Warning: Command \scriptsize invalid in math mode on input line 1283
 .
 
 
-LaTeX Font Warning: Command \scriptsize invalid in math mode on input line 1281
+LaTeX Font Warning: Command \scriptsize invalid in math mode on input line 1283
 .
 
-[46]
+[56]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 1326.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `superscript' on input line 1326.
+(hyperref)                removing `math shift' on input line 1330.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 1326.
+(hyperref)                removing `superscript' on input line 1330.
 
 
-Overfull \hbox (24.14503pt too wide) in paragraph at lines 1366--1367
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 1330.
+
+[57]
+Overfull \hbox (40.93216pt too wide) in paragraph at lines 1370--1371
 []\OT1/cmr/m/n/12 Queste sono per^^Ro sem-plici ap-prossi-mazioni lin-eari. Se 
 vo-lessimo au-mentare la pre-ci-sione dell'approssimazione
  []
 
-[47] [48]
+[58] [59] [60]
 
-LaTeX Font Warning: Command \scriptsize invalid in math mode on input line 1483
+LaTeX Font Warning: Command \scriptsize invalid in math mode on input line 1487
 .
 
 
-LaTeX Font Warning: Command \scriptsize invalid in math mode on input line 1483
+LaTeX Font Warning: Command \scriptsize invalid in math mode on input line 1487
 .
 
-[49] [50] [51] [52] [53] [54] [55] [56] [57]
+[61] [62] [63] [64] [65] [66] [67] [68] [69] [70] [71] [72]
 
-LaTeX Font Warning: Command \scriptsize invalid in math mode on input line 2096
-.
-
-
-LaTeX Font Warning: Command \scriptsize invalid in math mode on input line 2096
+LaTeX Font Warning: Command \scriptsize invalid in math mode on input line 2100
 .
 
 
-LaTeX Font Warning: Command \scriptsize invalid in math mode on input line 2096
+LaTeX Font Warning: Command \scriptsize invalid in math mode on input line 2100
 .
 
 
-LaTeX Font Warning: Command \scriptsize invalid in math mode on input line 2096
+LaTeX Font Warning: Command \scriptsize invalid in math mode on input line 2100
 .
 
 
-LaTeX Font Warning: Command \scriptsize invalid in math mode on input line 2103
+LaTeX Font Warning: Command \scriptsize invalid in math mode on input line 2100
 .
 
 
-LaTeX Font Warning: Command \scriptsize invalid in math mode on input line 2103
+LaTeX Font Warning: Command \scriptsize invalid in math mode on input line 2107
 .
 
 
-LaTeX Font Warning: Command \scriptsize invalid in math mode on input line 2103
+LaTeX Font Warning: Command \scriptsize invalid in math mode on input line 2107
 .
 
 
-LaTeX Font Warning: Command \scriptsize invalid in math mode on input line 2103
+LaTeX Font Warning: Command \scriptsize invalid in math mode on input line 2107
 .
 
 
-LaTeX Font Warning: Command \scriptsize invalid in math mode on input line 2103
+LaTeX Font Warning: Command \scriptsize invalid in math mode on input line 2107
 .
 
 
-LaTeX Font Warning: Command \scriptsize invalid in math mode on input line 2103
+LaTeX Font Warning: Command \scriptsize invalid in math mode on input line 2107
 .
 
 
-LaTeX Font Warning: Command \scriptsize invalid in math mode on input line 2103
+LaTeX Font Warning: Command \scriptsize invalid in math mode on input line 2107
 .
 
 
-LaTeX Font Warning: Command \scriptsize invalid in math mode on input line 2103
+LaTeX Font Warning: Command \scriptsize invalid in math mode on input line 2107
 .
 
-[58] [59]
-<images/f_impl1.png, id=1860, 522.95375pt x 335.2525pt>
+
+LaTeX Font Warning: Command \scriptsize invalid in math mode on input line 2107
+.
+
+[73]
+<images/f_impl1.png, id=1919, 522.95375pt x 335.2525pt>
 File: images/f_impl1.png Graphic file (type png)
 <use images/f_impl1.png>
-Package pdftex.def Info: images/f_impl1.png  used on input line 2173.
-(pdftex.def)             Requested size: 271.0125pt x 173.74402pt.
-<images/f_impl2.png, id=1861, 208.78pt x 177.66376pt>
+Package pdftex.def Info: images/f_impl1.png  used on input line 2175.
+(pdftex.def)             Requested size: 262.61894pt x 168.36247pt.
+<images/f_impl2.png, id=1920, 208.78pt x 177.66376pt>
 File: images/f_impl2.png Graphic file (type png)
 <use images/f_impl2.png>
-Package pdftex.def Info: images/f_impl2.png  used on input line 2180.
-(pdftex.def)             Requested size: 162.60915pt x 138.38197pt.
- [60 <./images/f_impl1.png> <./images/f_impl2.png>] [61] [62] [63]
-[64] [65] [66] [67]
+Package pdftex.def Info: images/f_impl2.png  used on input line 2182.
+(pdftex.def)             Requested size: 157.57297pt x 134.096pt.
+ [74 <./images/f_impl1.png> <./images/f_impl2.png>] [75] [76] [77]
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
-LaTeX Font Warning: Command \scriptsize invalid in math mode on input line 2684
+ [78]
+[79] [80] [81] [82] [83]
+
+LaTeX Font Warning: Command \scriptsize invalid in math mode on input line 2683
 .
 
 
-LaTeX Font Warning: Command \scriptsize invalid in math mode on input line 2684
+LaTeX Font Warning: Command \scriptsize invalid in math mode on input line 2683
 .
 
 
-LaTeX Font Warning: Command \scriptsize invalid in math mode on input line 2726
+LaTeX Font Warning: Command \scriptsize invalid in math mode on input line 2725
 .
 
 
-LaTeX Font Warning: Command \scriptsize invalid in math mode on input line 2726
+LaTeX Font Warning: Command \scriptsize invalid in math mode on input line 2725
 .
 
-[68] [69]
+[84] [85] [86]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 2829.
+(hyperref)                removing `math shift' on input line 2828.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `superscript' on input line 2829.
+(hyperref)                removing `superscript' on input line 2828.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 2829.
+(hyperref)                removing `math shift' on input line 2828.
 
-
-Overfull \hbox (2.49892pt too wide) in paragraph at lines 2851--2852
-[]\OT1/cmr/m/n/12 La prima scrit-tura im-plica che i gra-di-enti siano \OT1/cmr
-/bx/n/12 lin-ear-mente dipen-deti \OT1/cmr/m/n/12 e che quindi $\OMS/cmsy/m/n/1
-2 9\OML/cmm/m/it/12 ^^U[]  \OT1/cmr/m/n/12 :  \OMS/cmsy/m/n/12 r\OML/cmm/m/it/1
-2 f\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 x[]; y[]\OT1/cmr/m/n/12 ) =
- []
-
-[70]
-<images/esempio.png, id=2104, 661.47125pt x 401.5pt>
+[87] [88]
+<images/esempio.png, id=2180, 661.47125pt x 401.5pt>
 File: images/esempio.png Graphic file (type png)
 <use images/esempio.png>
-Package pdftex.def Info: images/esempio.png  used on input line 2925.
-(pdftex.def)             Requested size: 271.0125pt x 164.49353pt.
- [71 <./images/esempio.png>]
-<images/esempio2.png, id=2124, 676.5275pt x 313.17pt>
+Package pdftex.def Info: images/esempio.png  used on input line 2924.
+(pdftex.def)             Requested size: 262.61894pt x 159.4025pt.
+ [89 <./images/esempio.png>]
+<images/esempio2.png, id=2197, 676.5275pt x 313.17pt>
 File: images/esempio2.png Graphic file (type png)
 <use images/esempio2.png>
-Package pdftex.def Info: images/esempio2.png  used on input line 2977.
-(pdftex.def)             Requested size: 271.0125pt x 125.45691pt.
- [72 <./images/esempio2.png>] [73]
+Package pdftex.def Info: images/esempio2.png  used on input line 2976.
+(pdftex.def)             Requested size: 262.61894pt x 121.57193pt.
+ [90 <./images/esempio2.png>] [91]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 3056.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `superscript' on input line 3056.
+(hyperref)                removing `math shift' on input line 3055.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 3056.
+(hyperref)                removing `superscript' on input line 3055.
 
-[74]
-<images/esempio3.png, id=2174, 373.395pt x 338.26375pt>
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 3055.
+
+[92] [93]
+<images/esempio3.png, id=2253, 373.395pt x 338.26375pt>
 File: images/esempio3.png Graphic file (type png)
 <use images/esempio3.png>
-Package pdftex.def Info: images/esempio3.png  used on input line 3121.
-(pdftex.def)             Requested size: 271.0125pt x 245.5214pt.
- [75 <./images/esempio3.png>] [76]
-<images/IGL1.png, id=2214, 194.7275pt x 169.63374pt>
+Package pdftex.def Info: images/esempio3.png  used on input line 3120.
+(pdftex.def)             Requested size: 262.61894pt x 237.91852pt.
+ [94 <./images/esempio3.png>] [95] [96]
+<images/IGL1.png, id=2298, 194.7275pt x 169.63374pt>
 File: images/IGL1.png Graphic file (type png)
 <use images/IGL1.png>
-Package pdftex.def Info: images/IGL1.png  used on input line 3259.
-(pdftex.def)             Requested size: 162.60915pt x 141.6579pt.
-<images/IGL2.png, id=2215, 202.7575pt x 145.54375pt>
+Package pdftex.def Info: images/IGL1.png  used on input line 3261.
+(pdftex.def)             Requested size: 157.57297pt x 137.27055pt.
+ [97 <./images/IGL1.png>]
+<images/IGL2.png, id=2312, 202.7575pt x 145.54375pt>
 File: images/IGL2.png Graphic file (type png)
 <use images/IGL2.png>
-Package pdftex.def Info: images/IGL2.png  used on input line 3271.
-(pdftex.def)             Requested size: 162.60915pt x 116.72829pt.
- [77 <./images/IGL1.png> <./images/IGL2.png>]
-<images/soppigro1.png, id=2231, 420.57124pt x 307.1475pt>
+Package pdftex.def Info: images/IGL2.png  used on input line 3275.
+(pdftex.def)             Requested size: 157.57297pt x 113.11281pt.
+<images/soppigro1.png, id=2313, 420.57124pt x 307.1475pt>
 File: images/soppigro1.png Graphic file (type png)
 <use images/soppigro1.png>
-Package pdftex.def Info: images/soppigro1.png  used on input line 3285.
-(pdftex.def)             Requested size: 542.02501pt x 395.85167pt.
- [78 <./images/soppigro1.png>] [79]
-<images/esMDL1.png, id=2252, 385.44pt x 534.99875pt>
+Package pdftex.def Info: images/soppigro1.png  used on input line 3287.
+(pdftex.def)             Requested size: 525.23788pt x 383.5913pt.
+
+[98 <./images/IGL2.png> <./images/soppigro1.png>] [99]
+<images/esMDL1.png, id=2336, 385.44pt x 534.99875pt>
 File: images/esMDL1.png Graphic file (type png)
 <use images/esMDL1.png>
-Package pdftex.def Info: images/esMDL1.png  used on input line 3321.
-(pdftex.def)             Requested size: 542.02501pt x 752.34013pt.
- [80 <./images/esMDL1.png>]
-<images/esMDL2.png, id=2259, 419.5675pt x 416.55624pt>
+Package pdftex.def Info: images/esMDL1.png  used on input line 3323.
+(pdftex.def)             Requested size: 525.23788pt x 729.04176pt.
+ [100 <./images/esMDL1.png>]
+<images/esMDL2.png, id=2343, 419.5675pt x 416.55624pt>
 File: images/esMDL2.png Graphic file (type png)
 <use images/esMDL2.png>
-Package pdftex.def Info: images/esMDL2.png  used on input line 3328.
-(pdftex.def)             Requested size: 542.02501pt x 538.13524pt.
-) [81 <./images/esMDL2.png>]
+Package pdftex.def Info: images/esMDL2.png  used on input line 3330.
+(pdftex.def)             Requested size: 525.23788pt x 521.46947pt.
+) [101 <./images/esMDL2.png>]
 \openout2 = `./TeX_files/chapter04.aux'.
 
- (./TeX_files/chapter04.tex [82
+ (./TeX_files/chapter04.tex [102
 
 
 
 
 ]
 Chapter 4.
-[83]
-<images/esCV1.png, id=2283, 406.51875pt x 292.09125pt>
+[103]
+<images/esCV1.png, id=2367, 406.51875pt x 292.09125pt>
 File: images/esCV1.png Graphic file (type png)
 <use images/esCV1.png>
 Package pdftex.def Info: images/esCV1.png  used on input line 72.
-(pdftex.def)             Requested size: 542.02501pt x 389.47035pt.
- [84 <./images/esCV1.png>]
-<images/cequiv.png, id=2299, 212.795pt x 148.555pt>
+(pdftex.def)             Requested size: 525.23788pt x 377.4054pt.
+ [104 <./images/esCV1.png>] [105]
+<images/cequiv.png, id=2392, 212.795pt x 148.555pt>
 File: images/cequiv.png Graphic file (type png)
 <use images/cequiv.png>
-Package pdftex.def Info: images/cequiv.png  used on input line 141.
-(pdftex.def)             Requested size: 162.60915pt x 113.52632pt.
- [85 <./images/cequiv.png>]
-<images/cscomp.png, id=2318, 214.8025pt x 112.42pt>
+Package pdftex.def Info: images/cequiv.png  used on input line 142.
+(pdftex.def)             Requested size: 157.57297pt x 110.01057pt.
+ [106 <./images/cequiv.png>]
+<images/cscomp.png, id=2407, 214.8025pt x 112.42pt>
 File: images/cscomp.png Graphic file (type png)
 <use images/cscomp.png>
-Package pdftex.def Info: images/cscomp.png  used on input line 168.
-(pdftex.def)             Requested size: 162.60915pt x 85.10558pt.
- [86 <./images/cscomp.png>]
-<images/cirr.png, id=2332, 405.515pt x 340.27126pt>
+Package pdftex.def Info: images/cscomp.png  used on input line 169.
+(pdftex.def)             Requested size: 157.57297pt x 82.46902pt.
+ [107 <./images/cscomp.png>]
+<images/cirr.png, id=2419, 405.515pt x 340.27126pt>
 File: images/cirr.png Graphic file (type png)
 <use images/cirr.png>
-Package pdftex.def Info: images/cirr.png  used on input line 231.
-(pdftex.def)             Requested size: 542.02501pt x 454.82922pt.
- [87 <./images/cirr.png>] [88]) [89]
+Package pdftex.def Info: images/cirr.png  used on input line 232.
+(pdftex.def)             Requested size: 525.23788pt x 440.74301pt.
+ [108 <./images/cirr.png>] [109]) [110]
 \openout2 = `./TeX_files/chapter05.aux'.
 
- (./TeX_files/chapter05.tex [90
+
+(./TeX_files/chapter05.tex
+Chapter 5.
+[111
 
 
 
 
 ]
-Chapter 5.
-<images/insmis.png, id=2363, 282.05376pt x 206.7725pt>
+<images/insmis.png, id=2456, 282.05376pt x 206.7725pt>
 File: images/insmis.png Graphic file (type png)
 <use images/insmis.png>
 Package pdftex.def Info: images/insmis.png  used on input line 62.
-(pdftex.def)             Requested size: 271.0125pt x 198.69179pt.
-[91] [92 <./images/insmis.png>]
-<images/insmises.png, id=2397, 985.6825pt x 428.60126pt>
+(pdftex.def)             Requested size: 262.61894pt x 192.53937pt.
+ [112 <./images/insmis.png>] [113]
+<images/insmises.png, id=2482, 985.6825pt x 428.60126pt>
 File: images/insmises.png Graphic file (type png)
 <use images/insmises.png>
-Package pdftex.def Info: images/insmises.png  used on input line 168.
-(pdftex.def)             Requested size: 433.62166pt x 188.55243pt.
- [93 <./images/insmises.png>]
+Package pdftex.def Info: images/insmises.png  used on input line 167.
+(pdftex.def)             Requested size: 525.23788pt x 228.40016pt.
+ [114 <./images/insmises.png>]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 202.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\cap' on input line 202.
+(hyperref)                removing `math shift' on input line 200.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 202.
+(hyperref)                removing `\cap' on input line 200.
 
-[94] [95]
-<images/fmisintes.png, id=2461, 957.5775pt x 431.6125pt>
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 200.
+
+[115] [116] [117] [118]
+<images/fmisintes.png, id=2570, 957.5775pt x 431.6125pt>
 File: images/fmisintes.png Graphic file (type png)
 <use images/fmisintes.png>
-Package pdftex.def Info: images/fmisintes.png  used on input line 421.
-(pdftex.def)             Requested size: 542.02501pt x 244.30934pt.
- [96]
-<images/qo.png, id=2484, 412.54124pt x 344.28625pt>
+Package pdftex.def Info: images/fmisintes.png  used on input line 419.
+(pdftex.def)             Requested size: 525.23788pt x 236.74219pt.
+ [119 <./images/fmisintes.png>]
+<images/qo.png, id=2579, 412.54124pt x 344.28625pt>
 File: images/qo.png Graphic file (type png)
 <use images/qo.png>
-Package pdftex.def Info: images/qo.png  used on input line 436.
-(pdftex.def)             Requested size: 542.02501pt x 452.3894pt.
- [97 <./images/fmisintes.png> <./images/qo.png>]
-<images/confras1.png, id=2495, 1019.81pt x 205.76875pt>
+Package pdftex.def Info: images/qo.png  used on input line 433.
+(pdftex.def)             Requested size: 525.23788pt x 438.37865pt.
+ [120 <./images/qo.png>]
+<images/confras1.png, id=2585, 1019.81pt x 205.76875pt>
 File: images/confras1.png Graphic file (type png)
 <use images/confras1.png>
-Package pdftex.def Info: images/confras1.png  used on input line 477.
-(pdftex.def)             Requested size: 542.02501pt x 109.37088pt.
-<images/confras2.png, id=2496, 949.5475pt x 195.73125pt>
+Package pdftex.def Info: images/confras1.png  used on input line 472.
+(pdftex.def)             Requested size: 525.23788pt x 105.98306pt.
+<images/confras2.png, id=2586, 949.5475pt x 195.73125pt>
 File: images/confras2.png Graphic file (type png)
 <use images/confras2.png>
-Package pdftex.def Info: images/confras2.png  used on input line 483.
-(pdftex.def)             Requested size: 542.02501pt x 111.73222pt.
- [98 <./images/confras1.png> <./images/confras2.png>]
-<images/conps.png, id=2517, 1074.0125pt x 365.365pt>
+Package pdftex.def Info: images/confras2.png  used on input line 476.
+(pdftex.def)             Requested size: 525.23788pt x 108.27074pt.
+
+[121 <./images/confras1.png> <./images/confras2.png>]
+<images/conps.png, id=2603, 1074.0125pt x 365.365pt>
 File: images/conps.png Graphic file (type png)
 <use images/conps.png>
-Package pdftex.def Info: images/conps.png  used on input line 527.
-(pdftex.def)             Requested size: 542.02501pt x 184.388pt.
- [99 <./images/conps.png>]
-<images/convdom.png, id=2536, 1040.88875pt x 474.77374pt>
+Package pdftex.def Info: images/conps.png  used on input line 517.
+(pdftex.def)             Requested size: 525.23788pt x 178.67918pt.
+ [122 <./images/conps.png>] [123]
+<images/convdom.png, id=2629, 1040.88875pt x 474.77374pt>
 File: images/convdom.png Graphic file (type png)
 <use images/convdom.png>
-Package pdftex.def Info: images/convdom.png  used on input line 602.
-(pdftex.def)             Requested size: 487.8192pt x 222.50618pt.
- [100 <./images/convdom.png>]
+Package pdftex.def Info: images/convdom.png  used on input line 593.
+(pdftex.def)             Requested size: 525.23788pt x 239.57411pt.
+ [124 <./images/convdom.png>]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 609.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `superscript' on input line 609.
+(hyperref)                removing `math shift' on input line 599.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 609.
+(hyperref)                removing `superscript' on input line 599.
 
-[101]
-<images/derint.png, id=2565, 1187.43625pt x 643.40375pt>
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 599.
+
+[125] [126]
+<images/derint.png, id=2672, 1187.43625pt x 643.40375pt>
 File: images/derint.png Graphic file (type png)
 <use images/derint.png>
-Package pdftex.def Info: images/derint.png  used on input line 759.
-(pdftex.def)             Requested size: 542.02501pt x 293.70146pt.
- [102] [103 <./images/derint.png>]
+Package pdftex.def Info: images/derint.png  used on input line 749.
+(pdftex.def)             Requested size: 525.23788pt x 284.6006pt.
+ [127 <./images/derint.png>] [128]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 768.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `superscript' on input line 768.
+(hyperref)                removing `math shift' on input line 757.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 768.
+(hyperref)                removing `superscript' on input line 757.
 
-<images/misins.png, id=2592, 102.3825pt x 76.285pt>
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 757.
+
+<images/misins.png, id=2687, 102.3825pt x 76.285pt>
 File: images/misins.png Graphic file (type png)
 <use images/misins.png>
-Package pdftex.def Info: images/misins.png  used on input line 774.
-(pdftex.def)             Requested size: 162.60915pt x 121.168pt.
-<images/misins2.png, id=2593, 124.465pt x 83.31125pt>
+Package pdftex.def Info: images/misins.png  used on input line 763.
+(pdftex.def)             Requested size: 157.57297pt x 117.41522pt.
+<images/misins2.png, id=2688, 124.465pt x 83.31125pt>
 File: images/misins2.png Graphic file (type png)
 <use images/misins2.png>
-Package pdftex.def Info: images/misins2.png  used on input line 798.
-(pdftex.def)             Requested size: 162.60915pt x 108.8525pt.
-<images/misins3.png, id=2594, 126.4725pt x 121.45375pt>
+Package pdftex.def Info: images/misins2.png  used on input line 787.
+(pdftex.def)             Requested size: 157.57297pt x 105.4812pt.
+[129 <./images/misins.png> <./images/misins2.png>]
+<images/misins3.png, id=2706, 126.4725pt x 121.45375pt>
 File: images/misins3.png Graphic file (type png)
 <use images/misins3.png>
-Package pdftex.def Info: images/misins3.png  used on input line 818.
-(pdftex.def)             Requested size: 162.60915pt x 156.1589pt.
-[104 <./images/misins.png> <./images/misins2.png>] [105 <./images/misins3.png>]
-[106] [107]
-<images/cdmsup.png, id=2638, 419.5675pt x 370.38374pt>
+Package pdftex.def Info: images/misins3.png  used on input line 806.
+(pdftex.def)             Requested size: 157.57297pt x 151.32382pt.
+ [130 <./images/misins3.png>] [131] [132] [133]
+<images/cdmsup.png, id=2737, 419.5675pt x 370.38374pt>
 File: images/cdmsup.png Graphic file (type png)
 <use images/cdmsup.png>
-Package pdftex.def Info: images/cdmsup.png  used on input line 887.
-(pdftex.def)             Requested size: 542.02501pt x 478.4865pt.
- [108 <./images/cdmsup.png>]
-<images/intstr.png, id=2646, 1025.8325pt x 560.0925pt>
+Package pdftex.def Info: images/cdmsup.png  used on input line 875.
+(pdftex.def)             Requested size: 525.23788pt x 463.66801pt.
+ [134 <./images/cdmsup.png>]
+<images/intstr.png, id=2745, 1025.8325pt x 560.0925pt>
 File: images/intstr.png Graphic file (type png)
 <use images/intstr.png>
-Package pdftex.def Info: images/intstr.png  used on input line 910.
-(pdftex.def)             Requested size: 325.2183pt x 177.56673pt.
-<images/intfili.png, id=2647, 1088.065pt x 189.70876pt>
+Package pdftex.def Info: images/intstr.png  used on input line 897.
+(pdftex.def)             Requested size: 525.23788pt x 286.7715pt.
+<images/intfili.png, id=2746, 1088.065pt x 189.70876pt>
 File: images/intfili.png Graphic file (type png)
 <use images/intfili.png>
-Package pdftex.def Info: images/intfili.png  used on input line 926.
-(pdftex.def)             Requested size: 379.41585pt x 66.153pt.
- [109 <./images/intstr.png> <./images/intfili.png>]
-<images/intimp1.png, id=2664, 1066.98625pt x 395.4775pt>
+Package pdftex.def Info: images/intfili.png  used on input line 912.
+(pdftex.def)             Requested size: 525.23788pt x 91.5802pt.
+ [135 <./images/intstr.png> <./images/intfili.png>] [136]
+<images/intimp1.png, id=2764, 1066.98625pt x 395.4775pt>
 File: images/intimp1.png Graphic file (type png)
 <use images/intimp1.png>
-Package pdftex.def Info: images/intimp1.png  used on input line 966.
-(pdftex.def)             Requested size: 542.02501pt x 200.90637pt.
-<images/intimp2.png, id=2665, 1104.125pt x 273.02pt>
+Package pdftex.def Info: images/intimp1.png  used on input line 951.
+(pdftex.def)             Requested size: 525.23788pt x 194.6848pt.
+ [137 <./images/intimp1.png>]
+<images/intimp2.png, id=2773, 1104.125pt x 273.02pt>
 File: images/intimp2.png Graphic file (type png)
 <use images/intimp2.png>
-Package pdftex.def Info: images/intimp2.png  used on input line 984.
-(pdftex.def)             Requested size: 542.02501pt x 134.0351pt.
-<images/intimp3.png, id=2666, 874.26625pt x 238.8925pt>
+Package pdftex.def Info: images/intimp2.png  used on input line 970.
+(pdftex.def)             Requested size: 525.23788pt x 129.88164pt.
+<images/intimp3.png, id=2774, 874.26625pt x 238.8925pt>
 File: images/intimp3.png Graphic file (type png)
 <use images/intimp3.png>
-Package pdftex.def Info: images/intimp3.png  used on input line 989.
-(pdftex.def)             Requested size: 542.02501pt x 148.10817pt.
- [110 <./images/intimp1.png> <./images/intimp2.png>]
-<images/intimp4.png, id=2680, 1069.9975pt x 354.32375pt>
+Package pdftex.def Info: images/intimp3.png  used on input line 974.
+(pdftex.def)             Requested size: 525.23788pt x 143.5225pt.
+<images/intimp4.png, id=2775, 1069.9975pt x 354.32375pt>
 File: images/intimp4.png Graphic file (type png)
 <use images/intimp4.png>
-Package pdftex.def Info: images/intimp4.png  used on input line 1003.
-(pdftex.def)             Requested size: 542.02501pt x 179.49706pt.
-) [111 <./images/intimp3.png> <./images/intimp4.png>] [112
-
-
-
-] (./analisi_vettoriale.aux
+Package pdftex.def Info: images/intimp4.png  used on input line 985.
+(pdftex.def)             Requested size: 525.23788pt x 173.93373pt.
+) [138 <./images/intimp2.png> <./images/intimp3.png> <./images/intimp4.png>] (.
+/analisi_vettoriale.aux
 (./TeX_files/chapter01.aux) (./TeX_files/chapter02.aux)
 (./TeX_files/chapter03.aux) (./TeX_files/chapter04.aux)
 (./TeX_files/chapter05.aux))
@@ -1209,13 +1164,13 @@ Package rerunfilecheck Info: File `analisi_vettoriale.out' has not changed.
 (rerunfilecheck)             Checksum: 43A0987BD4440367662C61C684F567B4;32118.
  ) 
 Here is how much of TeX's memory you used:
- 12987 strings out of 478287
- 205037 string characters out of 5849289
- 492835 words of memory out of 5000000
- 29371 multiletter control sequences out of 15000+600000
+ 12995 strings out of 478287
+ 205057 string characters out of 5849289
+ 488858 words of memory out of 5000000
+ 29370 multiletter control sequences out of 15000+600000
  488379 words of font info for 103 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 60i,21n,63p,477b,520s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 60i,21n,63p,477b,526s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/bbold-type1/bbold10.pfb></u
 sr/share/texlive/texmf-dist/fonts/type1/public/bbold-type1/bbold7.pfb></usr/sha
 re/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/tex
@@ -1238,10 +1193,10 @@ e1/public/amsfonts/cm/cmti12.pfb></usr/share/texlive/texmf-dist/fonts/type1/pub
 lic/amsfonts/latxfont/line10.pfb></usr/share/texlive/texmf-dist/fonts/type1/pub
 lic/amsfonts/symbols/msam10.pfb></usr/share/texlive/texmf-dist/fonts/type1/publ
 ic/amsfonts/symbols/msbm10.pfb>
-Output written on analisi_vettoriale.pdf (118 pages, 8930148 bytes).
+Output written on analisi_vettoriale.pdf (144 pages, 8946447 bytes).
 PDF statistics:
- 3117 PDF objects out of 3580 (max. 8388607)
- 2843 compressed objects within 29 object streams
- 1559 named destinations out of 1728 (max. 500000)
+ 3211 PDF objects out of 3580 (max. 8388607)
+ 2910 compressed objects within 30 object streams
+ 1568 named destinations out of 1728 (max. 500000)
  1439 words of extra memory for PDF output out of 10000 (max. 10000000)
 
